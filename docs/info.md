@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Uses a combination of PTAT and CTAT voltage dependence creates a reference voltage that is approximately insensitive to temperature. 
 
 ## How to test
 
-Explain how to use your project
+Ramp supply voltage up to 1.8V. Using DMM/Oscilloscope probe the ua[0] pin, which is the VREF voltage node of the bandgap.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No External hardware required other than the test equipment (DMM, Oscilloscope)
