@@ -1,0 +1,12 @@
+# Target labels
+ netgen
+# Source files and their labels
+/home/lenny/projects/test/layout/netgen/build/netgen/CMakeFiles/netgen-build
+/home/lenny/projects/test/layout/netgen/build/netgen/CMakeFiles/netgen-build.rule
+/home/lenny/projects/test/layout/netgen/build/netgen/dependencies/src/netgen-stamp/netgen-build.rule
+/home/lenny/projects/test/layout/netgen/build/netgen/dependencies/src/netgen-stamp/netgen-check_submodules1.rule
+/home/lenny/projects/test/layout/netgen/build/netgen/dependencies/src/netgen-stamp/netgen-configure.rule
+/home/lenny/projects/test/layout/netgen/build/netgen/dependencies/src/netgen-stamp/netgen-patch.rule
+/home/lenny/projects/test/layout/netgen/build/netgen/dependencies/src/netgen-stamp/netgen-update.rule
+/home/lenny/projects/test/layout/netgen/build/netgen/dependencies/src/netgen-stamp/netgen-download.rule
+/home/lenny/projects/test/layout/netgen/build/netgen/dependencies/src/netgen-stamp/netgen-mkdir.rule

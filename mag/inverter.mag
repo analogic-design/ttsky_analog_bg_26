@@ -1,0 +1,92 @@
+magic
+tech sky130A
+timestamp 1789558746
+<< nwell >>
+rect -140 170 110 310
+<< nmos >>
+rect 0 0 15 100
+<< pmos >>
+rect 0 190 15 290
+<< ndiff >>
+rect -60 80 0 100
+rect -60 20 -40 80
+rect -20 20 0 80
+rect -60 0 0 20
+rect 15 80 90 100
+rect 15 20 35 80
+rect 55 20 90 80
+rect 15 0 90 20
+<< pdiff >>
+rect -60 270 0 290
+rect -60 210 -40 270
+rect -20 210 0 270
+rect -60 190 0 210
+rect 15 270 90 290
+rect 15 210 35 270
+rect 55 210 90 270
+rect 15 190 90 210
+<< ndiffc >>
+rect -40 20 -20 80
+rect 35 20 55 80
+<< pdiffc >>
+rect -40 210 -20 270
+rect 35 210 55 270
+<< psubdiff >>
+rect -120 80 -60 100
+rect -120 20 -100 80
+rect -80 20 -60 80
+rect -120 0 -60 20
+<< nsubdiff >>
+rect -120 270 -60 290
+rect -120 210 -100 270
+rect -80 210 -60 270
+rect -120 190 -60 210
+<< psubdiffcont >>
+rect -100 20 -80 80
+<< nsubdiffcont >>
+rect -100 210 -80 270
+<< poly >>
+rect 0 290 15 305
+rect 0 155 15 190
+rect -55 150 15 155
+rect -55 130 -45 150
+rect -25 130 15 150
+rect -55 120 15 130
+rect 0 100 15 120
+rect 0 -15 15 0
+<< polycont >>
+rect -45 130 -25 150
+<< locali >>
+rect -105 270 -15 280
+rect -105 210 -100 270
+rect -80 210 -40 270
+rect -20 210 -15 270
+rect -105 200 -15 210
+rect 30 270 60 280
+rect 30 210 35 270
+rect 55 210 60 270
+rect -55 150 -15 155
+rect -55 130 -45 150
+rect -25 130 -15 150
+rect -55 120 -15 130
+rect 30 150 60 210
+rect 30 125 110 150
+rect -105 80 -15 90
+rect -105 20 -100 80
+rect -80 20 -40 80
+rect -20 20 -15 80
+rect -105 10 -15 20
+rect 30 80 60 125
+rect 30 20 35 80
+rect 55 20 60 80
+rect 30 10 60 20
+<< labels >>
+rlabel nsubdiffcont -90 240 -90 240 7 VDD
+port 1 w
+rlabel polycont -35 140 -35 140 7 IN
+port 2 w
+rlabel locali 100 135 100 135 3 OUT
+port 3 e
+rlabel psubdiffcont -90 50 -90 50 7 VSS
+port 4 w
+<< end >>

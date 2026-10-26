@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtogl.a CMakeFiles/togl.dir/togl.c.o CMakeFiles/togl.dir/toglProcAddr.c.o CMakeFiles/togl.dir/toglStubInit.c.o
+/usr/bin/ranlib libtogl.a

@@ -1,0 +1,13 @@
+# Target labels
+ suitesparse
+# Source files and their labels
+/home/lenny/projects/test/layout/netgen/build/CMakeFiles/suitesparse
+/home/lenny/projects/test/layout/netgen/build/CMakeFiles/suitesparse.rule
+/home/lenny/projects/test/layout/netgen/build/CMakeFiles/suitesparse-complete.rule
+/home/lenny/projects/test/layout/netgen/build/dependencies/src/suitesparse-stamp/suitesparse-build.rule
+/home/lenny/projects/test/layout/netgen/build/dependencies/src/suitesparse-stamp/suitesparse-configure.rule
+/home/lenny/projects/test/layout/netgen/build/dependencies/src/suitesparse-stamp/suitesparse-download.rule
+/home/lenny/projects/test/layout/netgen/build/dependencies/src/suitesparse-stamp/suitesparse-install.rule
+/home/lenny/projects/test/layout/netgen/build/dependencies/src/suitesparse-stamp/suitesparse-mkdir.rule
+/home/lenny/projects/test/layout/netgen/build/dependencies/src/suitesparse-stamp/suitesparse-patch.rule
+/home/lenny/projects/test/layout/netgen/build/dependencies/src/suitesparse-stamp/suitesparse-update.rule

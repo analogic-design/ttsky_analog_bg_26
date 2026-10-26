@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libccolamd.a CMakeFiles/ccolamd.dir/SourceWrappers/ccolamd.c.o CMakeFiles/ccolamd.dir/SourceWrappers/ccolamd_global.c.o CMakeFiles/ccolamd.dir/SourceWrappers/ccolamd_l.o.c.o
+/usr/bin/ranlib ../../lib/libccolamd.a

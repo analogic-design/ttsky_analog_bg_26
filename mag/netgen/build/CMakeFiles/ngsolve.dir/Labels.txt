@@ -1,0 +1,15 @@
+# Target labels
+ ngsolve
+# Source files and their labels
+/home/lenny/projects/test/layout/netgen/build/CMakeFiles/ngsolve
+/home/lenny/projects/test/layout/netgen/build/CMakeFiles/ngsolve.rule
+/home/lenny/projects/test/layout/netgen/build/CMakeFiles/ngsolve-complete.rule
+/home/lenny/projects/test/layout/netgen/build/dependencies/src/ngsolve-stamp/ngsolve-build.rule
+/home/lenny/projects/test/layout/netgen/build/dependencies/src/ngsolve-stamp/ngsolve-check_submodules.rule
+/home/lenny/projects/test/layout/netgen/build/dependencies/src/ngsolve-stamp/ngsolve-check_submodules1.rule
+/home/lenny/projects/test/layout/netgen/build/dependencies/src/ngsolve-stamp/ngsolve-configure.rule
+/home/lenny/projects/test/layout/netgen/build/dependencies/src/ngsolve-stamp/ngsolve-download.rule
+/home/lenny/projects/test/layout/netgen/build/dependencies/src/ngsolve-stamp/ngsolve-install.rule
+/home/lenny/projects/test/layout/netgen/build/dependencies/src/ngsolve-stamp/ngsolve-mkdir.rule
+/home/lenny/projects/test/layout/netgen/build/dependencies/src/ngsolve-stamp/ngsolve-patch.rule
+/home/lenny/projects/test/layout/netgen/build/dependencies/src/ngsolve-stamp/ngsolve-update.rule

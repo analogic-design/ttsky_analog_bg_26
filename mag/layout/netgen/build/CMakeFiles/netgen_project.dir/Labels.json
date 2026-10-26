@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lenny/projects/test/layout/netgen/build/CMakeFiles/netgen_project"
+		},
+		{
+			"file" : "/home/lenny/projects/test/layout/netgen/build/CMakeFiles/netgen_project.rule"
+		},
+		{
+			"file" : "/home/lenny/projects/test/layout/netgen/build/CMakeFiles/netgen_project-complete.rule"
+		},
+		{
+			"file" : "/home/lenny/projects/test/layout/netgen/build/dependencies/src/netgen_project-stamp/netgen_project-build.rule"
+		},
+		{
+			"file" : "/home/lenny/projects/test/layout/netgen/build/dependencies/src/netgen_project-stamp/netgen_project-configure.rule"
+		},
+		{
+			"file" : "/home/lenny/projects/test/layout/netgen/build/dependencies/src/netgen_project-stamp/netgen_project-download.rule"
+		},
+		{
+			"file" : "/home/lenny/projects/test/layout/netgen/build/dependencies/src/netgen_project-stamp/netgen_project-install.rule"
+		},
+		{
+			"file" : "/home/lenny/projects/test/layout/netgen/build/dependencies/src/netgen_project-stamp/netgen_project-mkdir.rule"
+		},
+		{
+			"file" : "/home/lenny/projects/test/layout/netgen/build/dependencies/src/netgen_project-stamp/netgen_project-patch.rule"
+		},
+		{
+			"file" : "/home/lenny/projects/test/layout/netgen/build/dependencies/src/netgen_project-stamp/netgen_project-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"netgen_project"
+		],
+		"name" : "netgen_project"
+	}
+}

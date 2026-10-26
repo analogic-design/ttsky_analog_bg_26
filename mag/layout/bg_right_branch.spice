@@ -1,0 +1,26 @@
+** sch_path: /home/lenny/projects/test/layout/bg_right_branch.sch
+.subckt bg_right_branch VSSA VREF VDDA vbp1
+*.PININFO VSSA:I VREF:O VDDA:I vbp1:I
+XQ3 VSSA VSSA v_e sky130_fd_pr__pnp_05v5_W3p40L3p40 m=8
+XM3 VREF vbp1 VDDA VDDA sky130_fd_pr__pfet_01v8_lvt L=6 W=8 nf=1
+XR1 r_0 VREF VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR2 r_1 r_0 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR3 r_2 r_1 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR4 r_3 r_2 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR5 r_4 r_3 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR6 r_5 r_4 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR7 r_6 r_5 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR8 r_7 r_6 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR9 r_8 r_7 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR10 r_9 r_8 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR11 r_10 r_9 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR12 r_11 r_10 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR13 r_12 r_11 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR14 r_13 r_12 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR15 r_14 r_13 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR16 r_15 r_14 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR17 r_16 r_15 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR18 r_17 r_16 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR19 r_18 r_17 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+XR20 v_e r_18 VSSA sky130_fd_pr__res_high_po_0p35 L=25 mult=1
+.ends
