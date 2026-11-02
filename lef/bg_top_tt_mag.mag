@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1793551062
+timestamp 1793629290
 << locali >>
 rect -12156 10350 28780 11056
 rect -11952 10288 -2562 10350
@@ -102,7 +102,7 @@ rect 3612 6851 3663 7351
 rect 3843 6851 3894 7351
 rect 3612 6778 3894 6851
 use all  all_0
-timestamp 1793550768
+timestamp 1793629029
 transform 1 0 12046 0 1 -1138
 box 548 882 11498 12658
 use bg_opamp_mag  bg_opamp_mag_0
@@ -114,11 +114,11 @@ timestamp 1793549389
 transform 1 0 -18218 0 1 636
 box 6062 -1080 11058 10867
 use bg_vminus_branch_mag  bg_vminus_branch_mag_0
-timestamp 1793548180
+timestamp 1793629290
 transform 1 0 -1214 0 1 899
 box 1614 -1229 13746 10761
 use bg_vplus_branch_mag  bg_vplus_branch_mag_0
-timestamp 1793548681
+timestamp 1793626715
 transform 1 0 -11848 0 1 2188
 box 4208 -2592 7160 9314
 use decoupling_cap_mag  decoupling_cap_mag_0
