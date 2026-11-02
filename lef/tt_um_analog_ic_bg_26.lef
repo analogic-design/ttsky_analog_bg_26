@@ -324,7 +324,7 @@ MACRO tt_um_analog_ic_bg_26
   END VDPWR
   PIN VGND
     DIRECTION INOUT ;
-    USE POWER ;
+    USE GROUND ;
     PORT
       LAYER met4 ;
         RECT 4.000 5.000 6.000 220.760 ;
