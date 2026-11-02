@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1793629290
+timestamp 1793630796
 << locali >>
 rect -12156 10350 28780 11056
 rect -11952 10288 -2562 10350
@@ -102,7 +102,7 @@ rect 3612 6851 3663 7351
 rect 3843 6851 3894 7351
 rect 3612 6778 3894 6851
 use all  all_0
-timestamp 1793629029
+timestamp 1793630796
 transform 1 0 12046 0 1 -1138
 box 548 882 11498 12658
 use bg_opamp_mag  bg_opamp_mag_0
