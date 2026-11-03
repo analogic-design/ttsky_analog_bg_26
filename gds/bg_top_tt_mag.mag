@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1793630796
+timestamp 1793713022
 << locali >>
 rect -12156 10350 28780 11056
 rect -11952 10288 -2562 10350
@@ -105,8 +105,8 @@ use all  all_0
 timestamp 1793630796
 transform 1 0 12046 0 1 -1138
 box 548 882 11498 12658
-use bg_opamp_mag  bg_opamp_mag_0
-timestamp 1793548526
+use bg_opamp_mag  bg_opamp_mag_0 ~/projects/test/layout/ttsky_analog_bg_26/gds
+timestamp 1793712978
 transform 1 0 -5530 0 1 1458
 box 834 -1806 6942 10006
 use bg_startup_mag  bg_startup_mag_0
