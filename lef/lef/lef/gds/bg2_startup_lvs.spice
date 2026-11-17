@@ -1,7 +1,0 @@
-* SPICE3 file created from bg2_startup_lvs.ext - technology: sky130A
-
-X0 sky130_fd_pr__nfet_01v8_BH8H9B_0/G vbp1 VDDA VDDA sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=6
-X1 VSSA sky130_fd_pr__nfet_01v8_BH8H9B_0/G sky130_fd_pr__nfet_01v8_BH8H9B_0/G VSSA sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=100
-X2 VDDA vbp1 sky130_fd_pr__nfet_01v8_BH8H9B_0/G VDDA sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=6
-X3 V_PLUS sky130_fd_pr__nfet_01v8_BH8H9B_0/G vbp1 VDDA sky130_fd_pr__pfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=3
-

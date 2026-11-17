@@ -1,7 +1,0 @@
-** sch_path: /home/lenny/projects/test/layout/bg2_vplus_branch.sch
-**.subckt bg2_vplus_branch V_PLUS VSSA
-*.ipin VSSA
-*.ipin V_PLUS
-XQ9 VSSA VSSA V_PLUS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
-**.ends
-.end

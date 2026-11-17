@@ -1,423 +1,0 @@
-Title: ** sch_path: /home/lenny/projects/test/layout/bg2_res_array_complete_tb.sch
-Date: Mon Nov  9 05:32:36  2026
-Command: ngspice-47+, Build Sun Sep 13 14:21:15 UTC 2026
-Plotname: DC transfer characteristic
-Flags: real
-No. Variables: 343
-No. Points: 10
-Variables:
-	0	v(v-sweep)	voltage
-	1	v(net1)	voltage
-	2	v(net2)	voltage
-	3	v(net3)	voltage
-	4	i(v1)	current
-	5	i(v2)	current
-	6	i(v3)	current
-	7	i(v4)	current
-	8	v(vin)	voltage
-	9	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_3_1)	voltage
-	10	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_3_5)	voltage
-	11	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_5_1)	voltage
-	12	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_5_5)	voltage
-	13	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_7_1)	voltage
-	14	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_7_5)	voltage
-	15	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_9_1)	voltage
-	16	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_9_5)	voltage
-	17	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_11_1)	voltage
-	18	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_11_5)	voltage
-	19	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_13_1)	voltage
-	20	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_13_5)	voltage
-	21	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_15_5)	voltage
-	22	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_17_5)	voltage
-	23	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_19_5)	voltage
-	24	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_21_5)	voltage
-	25	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_23_5)	voltage
-	26	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_25_5)	voltage
-	27	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r1_27_5)	voltage
-	28	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_2_3)	voltage
-	29	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_2_4)	voltage
-	30	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_2_5)	voltage
-	31	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_3_3)	voltage
-	32	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_3_4)	voltage
-	33	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_3_5)	voltage
-	34	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_4_1)	voltage
-	35	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_4_2)	voltage
-	36	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_4_3)	voltage
-	37	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_4_4)	voltage
-	38	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_4_5)	voltage
-	39	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_5_3)	voltage
-	40	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_5_4)	voltage
-	41	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_5_5)	voltage
-	42	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_6_1)	voltage
-	43	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_6_2)	voltage
-	44	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_6_3)	voltage
-	45	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_6_4)	voltage
-	46	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_6_5)	voltage
-	47	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_7_3)	voltage
-	48	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_7_4)	voltage
-	49	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_7_5)	voltage
-	50	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_8_1)	voltage
-	51	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_8_2)	voltage
-	52	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_8_3)	voltage
-	53	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_8_4)	voltage
-	54	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_8_5)	voltage
-	55	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_9_1)	voltage
-	56	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_9_2)	voltage
-	57	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_9_3)	voltage
-	58	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_9_4)	voltage
-	59	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_9_5)	voltage
-	60	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_10_3)	voltage
-	61	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_10_4)	voltage
-	62	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_10_5)	voltage
-	63	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_11_3)	voltage
-	64	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_11_4)	voltage
-	65	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_11_5)	voltage
-	66	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_12_2)	voltage
-	67	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_12_3)	voltage
-	68	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_12_4)	voltage
-	69	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_12_5)	voltage
-	70	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_13_2)	voltage
-	71	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_13_3)	voltage
-	72	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_13_4)	voltage
-	73	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_13_5)	voltage
-	74	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_14_1)	voltage
-	75	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_14_2)	voltage
-	76	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_14_3)	voltage
-	77	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_14_4)	voltage
-	78	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_14_5)	voltage
-	79	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_15_2)	voltage
-	80	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_15_3)	voltage
-	81	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_15_4)	voltage
-	82	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_15_5)	voltage
-	83	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_16_1)	voltage
-	84	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_16_2)	voltage
-	85	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_16_3)	voltage
-	86	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_16_4)	voltage
-	87	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_16_5)	voltage
-	88	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_17_2)	voltage
-	89	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_17_3)	voltage
-	90	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_17_4)	voltage
-	91	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_17_5)	voltage
-	92	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_18_1)	voltage
-	93	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_18_2)	voltage
-	94	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_18_3)	voltage
-	95	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_18_4)	voltage
-	96	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_18_5)	voltage
-	97	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_19_2)	voltage
-	98	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_19_3)	voltage
-	99	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_19_4)	voltage
-	100	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_19_5)	voltage
-	101	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_20_1)	voltage
-	102	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_20_2)	voltage
-	103	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_20_3)	voltage
-	104	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_20_4)	voltage
-	105	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_20_5)	voltage
-	106	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_21_2)	voltage
-	107	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_21_3)	voltage
-	108	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_21_4)	voltage
-	109	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_21_5)	voltage
-	110	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_22_1)	voltage
-	111	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_22_2)	voltage
-	112	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_22_3)	voltage
-	113	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_22_4)	voltage
-	114	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_22_5)	voltage
-	115	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_23_2)	voltage
-	116	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_23_3)	voltage
-	117	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_23_4)	voltage
-	118	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_23_5)	voltage
-	119	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_24_1)	voltage
-	120	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_24_2)	voltage
-	121	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_24_3)	voltage
-	122	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_24_4)	voltage
-	123	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_24_5)	voltage
-	124	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_25_2)	voltage
-	125	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_25_3)	voltage
-	126	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_25_4)	voltage
-	127	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_25_5)	voltage
-	128	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_26_1)	voltage
-	129	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_26_2)	voltage
-	130	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_26_3)	voltage
-	131	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_26_4)	voltage
-	132	v(x1.sky130_fd_pr__res_high_po_0p35_wzrs6e_0/r2_26_5)	voltage
-	133	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x0.ra)	voltage
-	134	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x1.ra)	voltage
-	135	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x2.ra)	voltage
-	136	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x3.ra)	voltage
-	137	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x4.ra)	voltage
-	138	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x5.ra)	voltage
-	139	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x6.ra)	voltage
-	140	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x7.ra)	voltage
-	141	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x8.ra)	voltage
-	142	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x9.ra)	voltage
-	143	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x10.ra)	voltage
-	144	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x11.ra)	voltage
-	145	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x12.ra)	voltage
-	146	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x13.ra)	voltage
-	147	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x14.ra)	voltage
-	148	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x15.ra)	voltage
-	149	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x16.ra)	voltage
-	150	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x17.ra)	voltage
-	151	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x18.ra)	voltage
-	152	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x19.ra)	voltage
-	153	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x20.ra)	voltage
-	154	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x21.ra)	voltage
-	155	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x22.ra)	voltage
-	156	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x23.ra)	voltage
-	157	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x24.ra)	voltage
-	158	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x25.ra)	voltage
-	159	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x26.ra)	voltage
-	160	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x27.ra)	voltage
-	161	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x28.ra)	voltage
-	162	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x29.ra)	voltage
-	163	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x30.ra)	voltage
-	164	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x31.ra)	voltage
-	165	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x32.ra)	voltage
-	166	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x33.ra)	voltage
-	167	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x34.ra)	voltage
-	168	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x35.ra)	voltage
-	169	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x36.ra)	voltage
-	170	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x37.ra)	voltage
-	171	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x38.ra)	voltage
-	172	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x39.ra)	voltage
-	173	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x40.ra)	voltage
-	174	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x41.ra)	voltage
-	175	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x42.ra)	voltage
-	176	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x43.ra)	voltage
-	177	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x44.ra)	voltage
-	178	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x45.ra)	voltage
-	179	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x46.ra)	voltage
-	180	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x47.ra)	voltage
-	181	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x48.ra)	voltage
-	182	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x49.ra)	voltage
-	183	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x50.ra)	voltage
-	184	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x51.ra)	voltage
-	185	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x52.ra)	voltage
-	186	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x53.ra)	voltage
-	187	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x54.ra)	voltage
-	188	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x55.ra)	voltage
-	189	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x56.ra)	voltage
-	190	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x57.ra)	voltage
-	191	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x58.ra)	voltage
-	192	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x59.ra)	voltage
-	193	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x60.ra)	voltage
-	194	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x61.ra)	voltage
-	195	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x62.ra)	voltage
-	196	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x63.ra)	voltage
-	197	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x64.ra)	voltage
-	198	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x65.ra)	voltage
-	199	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x66.ra)	voltage
-	200	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x67.ra)	voltage
-	201	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x68.ra)	voltage
-	202	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x69.ra)	voltage
-	203	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x70.ra)	voltage
-	204	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x71.ra)	voltage
-	205	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x72.ra)	voltage
-	206	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x73.ra)	voltage
-	207	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x74.ra)	voltage
-	208	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x75.ra)	voltage
-	209	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x76.ra)	voltage
-	210	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x77.ra)	voltage
-	211	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x78.ra)	voltage
-	212	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x79.ra)	voltage
-	213	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x80.ra)	voltage
-	214	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x81.ra)	voltage
-	215	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x82.ra)	voltage
-	216	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x83.ra)	voltage
-	217	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x84.ra)	voltage
-	218	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x85.ra)	voltage
-	219	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x86.ra)	voltage
-	220	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x87.ra)	voltage
-	221	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x88.ra)	voltage
-	222	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x89.ra)	voltage
-	223	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x90.ra)	voltage
-	224	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x91.ra)	voltage
-	225	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x92.ra)	voltage
-	226	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x93.ra)	voltage
-	227	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x94.ra)	voltage
-	228	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x95.ra)	voltage
-	229	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x96.ra)	voltage
-	230	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x97.ra)	voltage
-	231	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x98.ra)	voltage
-	232	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x99.ra)	voltage
-	233	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x100.ra)	voltage
-	234	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x101.ra)	voltage
-	235	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x102.ra)	voltage
-	236	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x103.ra)	voltage
-	237	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x104.ra)	voltage
-	238	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x105.ra)	voltage
-	239	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x106.ra)	voltage
-	240	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x107.ra)	voltage
-	241	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x108.ra)	voltage
-	242	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x109.ra)	voltage
-	243	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x110.ra)	voltage
-	244	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x111.ra)	voltage
-	245	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x112.ra)	voltage
-	246	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x113.ra)	voltage
-	247	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x114.ra)	voltage
-	248	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x115.ra)	voltage
-	249	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x116.ra)	voltage
-	250	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x117.ra)	voltage
-	251	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x118.ra)	voltage
-	252	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x119.ra)	voltage
-	253	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x120.ra)	voltage
-	254	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x121.ra)	voltage
-	255	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x122.ra)	voltage
-	256	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x123.ra)	voltage
-	257	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x124.ra)	voltage
-	258	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x125.ra)	voltage
-	259	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x126.ra)	voltage
-	260	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x127.ra)	voltage
-	261	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x128.ra)	voltage
-	262	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x129.ra)	voltage
-	263	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x130.ra)	voltage
-	264	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x131.ra)	voltage
-	265	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x132.ra)	voltage
-	266	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x133.ra)	voltage
-	267	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x134.ra)	voltage
-	268	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x135.ra)	voltage
-	269	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x136.ra)	voltage
-	270	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x137.ra)	voltage
-	271	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x138.ra)	voltage
-	272	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x139.ra)	voltage
-	273	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x140.ra)	voltage
-	274	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x141.ra)	voltage
-	275	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x142.ra)	voltage
-	276	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x143.ra)	voltage
-	277	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x144.ra)	voltage
-	278	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x145.ra)	voltage
-	279	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x146.ra)	voltage
-	280	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x147.ra)	voltage
-	281	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x148.ra)	voltage
-	282	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x149.ra)	voltage
-	283	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x150.ra)	voltage
-	284	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x151.ra)	voltage
-	285	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x152.ra)	voltage
-	286	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x153.ra)	voltage
-	287	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x154.ra)	voltage
-	288	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x155.ra)	voltage
-	289	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x156.ra)	voltage
-	290	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x157.ra)	voltage
-	291	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x158.ra)	voltage
-	292	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x159.ra)	voltage
-	293	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x160.ra)	voltage
-	294	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x161.ra)	voltage
-	295	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x162.ra)	voltage
-	296	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x163.ra)	voltage
-	297	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x164.ra)	voltage
-	298	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x165.ra)	voltage
-	299	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x166.ra)	voltage
-	300	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x167.ra)	voltage
-	301	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x168.ra)	voltage
-	302	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x169.ra)	voltage
-	303	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x170.ra)	voltage
-	304	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x171.ra)	voltage
-	305	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x172.ra)	voltage
-	306	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x173.ra)	voltage
-	307	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x174.ra)	voltage
-	308	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x175.ra)	voltage
-	309	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x176.ra)	voltage
-	310	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x177.ra)	voltage
-	311	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x178.ra)	voltage
-	312	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x179.ra)	voltage
-	313	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x180.ra)	voltage
-	314	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x181.ra)	voltage
-	315	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x182.ra)	voltage
-	316	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x183.ra)	voltage
-	317	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x184.ra)	voltage
-	318	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x185.ra)	voltage
-	319	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x186.ra)	voltage
-	320	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x187.ra)	voltage
-	321	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x188.ra)	voltage
-	322	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x189.ra)	voltage
-	323	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x190.ra)	voltage
-	324	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x191.ra)	voltage
-	325	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x192.ra)	voltage
-	326	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x193.ra)	voltage
-	327	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x194.ra)	voltage
-	328	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x195.ra)	voltage
-	329	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x196.ra)	voltage
-	330	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x197.ra)	voltage
-	331	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x198.ra)	voltage
-	332	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x199.ra)	voltage
-	333	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x200.ra)	voltage
-	334	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x201.ra)	voltage
-	335	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x202.ra)	voltage
-	336	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x203.ra)	voltage
-	337	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x204.ra)	voltage
-	338	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x205.ra)	voltage
-	339	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x206.ra)	voltage
-	340	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x207.ra)	voltage
-	341	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x208.ra)	voltage
-	342	v(x1.xsky130_fd_pr__res_high_po_0p35_wzrs6e_0.x209.ra)	voltage
-Binary:
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        š™™™™™É?                        °ž0KÍ¾        ŽÃð©øÊ>¦{V¡c™’>š™™™™™É?×£p=
-Ç?0w‹!·È?ØQ¸…ëÁ?M3o1¤óÆ?™™™™™¹?tðRA«/Å?……ëQ¸®?’®6Q²kÃ?U®Gáz”?cma¹§Á?r
-Ùµ‰’½? Züá€Ç¿?s«®M”ìº?›hõ¥‚¶?Es!·²?"²µ‰’]«?‹(Ùµ‰¢?6Q²k“?ãÌÃ?\?ò–{aÉ?Rˆ’]›(É?ÀÿŽ?ðÈ?šÝ€ÇÈ?f„åžFÈ?¢î‡È?l®GázÄ? U}© ÕÇ?¦Ìy‹!Ç?4Dvm¢dÇ?¾»rO#,Ç?šd×&JÆ?y"hõ¥‚Æ?àªk%»Æ?–…ëQ¸¾?¾a¹§Æ?d‰]›(ÙÅ?Z}© Å?¿xV_*hÅ?­WHç-†Ä?ëßK­¾Ä?-hO#,÷Ä?a®Gáz´?oÏDÉ®MÄ?2GA«/Ä?ú¾=°ÜÃ?Ä6:o1¤Ã?W®Gáz¤?ë(Ùµ‰Â?,÷4ÂÂ?8ž/´úÂ?c&3333Ã?Ä%»6QÂ? }!·Â?õ8àÁ?.Õ<þÀ?;]%»6Á?MåC:oÁ?#Mé¼ÅÀ?ÅË=À?=­¾TÀ?µ?À?Xàñ‡¾??*ç-†t¾?/:îi„å¾?$Jõ¥‚V¿?‘úÑy‹!½?°êÊ=°¼?ÖÚÃ?¼?Ë¼ÅÎ»?8»µ‰’]»?†l’]›(¹?:|™™™™¹?ö‹ Õ—
-º?°›§–{º?Õ\‹!·¸?$M„åžF¸?|=}© Õ·?Ö-vm¢d·?7o1¤ó¶?ZÐK­¾´?äßRA«/µ?qïY}© µ?ÿ`¹§¶?ÐÀDÉ®M´?F±=°Ü³?À¡6Q²k³?=’/´ú²?¿‚(Ùµ‰²?p5­¾T°?àDé¼Å°?ST%»6±?Éca¹§±?Lüá€Ç¯?4-îi„å®?dàñ‡®?ïÑy‹!­?ÝÐÃ?¬?T7}© Õ§?V‹!·¨?µt™™™™©?i“§–{ª?­o1¤ó¦?ú`¹§¦?cÛRA«/¥?À¼DÉ®M¤?#ž6Q²k£?À
-àñ‡ž?ÈGüá€ÇŸ?lBé¼Å ?ù`a¹§¡?ÂÍÃ?œ?Ã§–{š?ÑS‹!·˜?æo1¤ó–? ÚRA«/•?rS‹!·ˆ?ÍÃ?Œ?ÊFüá€Ç?@`a¹§‘?ÉÙRA«/…?`a¹§?ñÌÃ?|?­ÙRA«/u?åÌÃ?l?‘!	‰»¿?Åý½¤Š_•?6[
-î«³?³³¥…¼¼?ðíÊ‡$ßÅ?                ¢â60ñÄ?›eÇi¥¦Å?‡uhgÉ?                                8  Ø¢E«?        Qyànï0Â?ü[pÿ|?                                        ž5¡±È?ÛÁÅF7-Ã?‡°V7Í­ ?ÒöPFšp·?
-0ì¢ƒ£?ØlÆŽO’?râÓtœàº?	yÛ#È?                xX‚˜á·?%#×ºxÓ¿?ƒ#«y¬âÃ?k¥Ç÷°½§?|<¯ýÙw‘?                                        *q‘ŒÙ¾??zf¨è³?	v8…=_?        `q,µ²´?LªFÄ¿²?        È€©V>iÁ?¾ÎE¨íÆ?	6†à¯¶?JmóšG¥?        Ëâãç©©?        k¼%,ûÍ¯?#óÚú1€Ä?Sdü+öÈ?éÑ‡Mµ­Á?Èby³~W¬?ëµZÞWˆ?é{1Å¹°?rt‰&Œøº?        ‹´uu«š?        M à;2Ç?Šù¢@È?                                        Ø£žÚ†K¼?ãÀ¡´‘›“?÷ÂÅüŸþ¹?                        –¡r™ºZÀ?é‹åT¯)Å?                uÓ³Žž½?                oAþÜ‘†½?^*Î¦Á?51çw£Ç?¸hÿÎ(ïu?[‹8LÃ*±?·K²­•²?ˆ£·„£¹?                        
-JÉd¶eÃ?KÝÃK&nÅ?ë½úª|Æ?        qÞŠ¥¡¢?        ©p¢@øÀ?        &âŽ‰³Â?”—žˆÚ»?ÄÕo­Ÿ¨?                ZyËíÒ;“? €äª¨¢­?PïÈ3¦–?        ºj*ªw³?«:Ú”ƒ#—?        2çI
-œÿ¶?Ïd¯É¡?        øætŽ¨Ó?êxh³#µ?                b{Þ±¸Ä?Ý­t½¡Á?L›§[-ªÃ?        ¼«®—+Ä? E®v¶? ¿£tý®?                ÂÛø™½È?ÍŠJ¿?        Dk;‚u«?        •…í:Ðß‹?qèé9n$º?—wö„|ç˜?        ±9Â(¸ôÂ?Û—Ü ùÆ?|þËÀ§OÇ?                        ò_¦cª?¨Núzže¤?        ¤§ð'x‚?                                Cÿ%Âg?;aUŽh¾?œ)v·9“À?        Š5÷ê*DÆ?        Š"yÈ?;³¾À¡¹?=<üu¯$²?                °ÒÌ8žoº?ˆ¯{ ÓÄÆ?        ¶ø¥8¿0Á?!_¾–R¸?ÿTÀ-§5Å?’o{;"À?w&¤±”µ?                åìÿI—.É?        ˆ‡+{9­?Ñš?ˆÁ›±?ùêŠ¾m?                        Ã¨ãYžjÇ?Š±¾
-9¼Â?Jj’§2WÂ?        RFþ&)µÆ?        ì‹k—)¦?þ#‘~¡—Ÿ?¥ír'Æq¢?ŒJIùÄ¹?–×BÎŽ¶?Z‹k4æÁ?        8„bŠi»?¤=®qÃ?                        yl*ÔÆH°?P •£w®?        ºË˜AY?                š™™™™™Ù?                        “»ÈOÝ¾        iƒóNãûÚ>Òb©Nž™¢>š™™™™™Ù?úÖ£p=
-×?‚w‹!·Ø?ÓQ¸…ëÑ?ª3o1¤óÖ?b™™™™™É?eðRA«/Õ?w…ëQ¸¾?e®6Q²kÓ?A®Gáz¤?0la¹§Ñ?ôÙµ‰’Í?êUüá€ÇÏ?¤®M”ìÊ?Òhõ¥‚Æ?Nj!·Â?¥µ‰’]»?ƒv(Ùµ‰²?”6Q²k£?è¿Ã?l?–{aÙ?ˆ’]›(Ù? ?ðØ?þÝ€ÇØ?|f„åžFØ?þî‡Ø?f®GázÔ?U}© Õ×?Íy‹!×?Dvm¢d×?¼rO#,×?dšd×&JÖ?Î"hõ¥‚Ö?;«k%»Ö?„…ëQ¸Î?ùa¹§Ö?‰]›(ÙÕ?)Z}© Õ?ÂxV_*hÕ?˜WHç-†Ô?×ßK­¾Ô?hO#,÷Ô?O®GázÄ?ZÏDÉ®MÔ? GA«/Ô?å¾=°ÜÓ?¨6:o1¤Ó?L®Gáz´?T(Ùµ‰Ò?,÷4ÂÒ?æ/´úÒ?)&3333Ó?%»6QÒ?Â|!·Ò?vô8àÑ?¨Ó<þÐ?Õ[%»6Ñ? äC:oÑ?~Ké¼ÅÐ?VÃË=Ð?1;­¾TÐ?³?Ð?!àñ‡Î?P%ç-†tÎ?}5îi„åÎ?®Eõ¥‚VÏ?ÈôÑy‹!Í?›äÊ=°Ì?wÔÃ?Ì?QÄ¼ÅÎË?+´µ‰’]Ë?èc’]›(É?æs™™™™É?ñƒ Õ—
-Ê?ö“§–{Ê?øS‹!·È?
-D„åžFÈ?(4}© ÕÇ?U$vm¢dÇ?‹o1¤óÆ?‰ÆK­¾Ä?
-ÖRA«/Å?—åY}© Å?.õ`¹§Æ?·DÉ®MÄ?ª§=°ÜÃ?B˜6Q²kÃ?çˆ/´úÂ?–y(Ùµ‰Â?o-­¾TÀ?ž<é¼ÅÀ?ÐK%»6Á?[a¹§Á?<üá€Ç¿?(îi„å¾?Þÿßñ‡¾? áÑy‹!½?bÃÃ?¼?,}© Õ·?VJ‹!·¸?˜h™™™™¹?Ú†§–{º?Ëo1¤ó¶?‡ï`¹§¶?BÑRA«/µ?ú²DÉ®M´?º”6Q²k³?9üßñ‡®?Z8üá€Ç¯?B:é¼Å°?^Xa¹§±?#ÀÃ?¬?„§–{ª?H‹!·¨?þo1¤ó¦? ÐRA«/¥?ùG‹!·˜?ú¿Ã?œ?ý7üá€ÇŸ? Xa¹§¡?øÏRA«/•?ùWa¹§‘?ò¿Ã?Œ?òÏRA«/…?ç¿Ã?|?$6Ù†‰»Ï?“Nß­ˆ_¥?•¨Rp«Ã?`î˜„¼Ì?yïH$ßÕ?                1Ø½u0ñÔ?‘ë*¥¦Õ?¡')gÙ?                                ÌeoÓ£E»?        Åšz–Í0Ò?>ºõ³ÿŒ?                                        “çùs¡±Ø?B–¡…7-Ó?öúÅ2Î­°?D™È™pÇ?
-Ô|¡ƒ³?·Ì›‰P¢?C„‹òœàÊ?Nï$Ø?                âS ˜áÇ?°u=xÓÏ?ÊNÏ:¬âÓ?½ì6ó±½·?lÙôÛw¡?                                        ¸ËÙÎ?YÇ`è§èÃ?©‹Êe=o?        ×¦(ªµ²Ä?¢JþAÀÂ?        T…•>iÑ?¿£Ýƒ¨íÖ?xÕ=^°Æ?“™÷™Gµ?        G)Sãª¹?        :BŽÊsÍ¿?±Ç¶92€Ô?û íöØ?ü«µ­Ñ?±
-¸}W¼?ÒJrHâW˜?ôéÅ¹À?ÈÃÑ¨‹øÊ?        ¥4~s«ª?        Lý2×?Öò7£@Ø?                                        :ôæ\†KÌ?“Ã½›£?/d}z þÉ?                        Ë–ZºZÐ?|`Á“¯)Õ?                ¸$üžÍ?                .åµZ’†Í?áö¦<¦Ñ?ó\9£×??Ê„ó ï…?%,ðÉÃ*Á?B™K4­•Â?(Do¤É?                        ¥£¶eÓ?¬è&nÕ?ä’ÖGª|Ö?        Òµn¤¡²?        ÄC~Y@øÐ?        ©³J³Ò?äß ˆÚË?Ek®Ÿ¸?                mªäÔ;£?±ú{0£½?Ì[À%¥¦?        ñ·Y¬©wÃ?’Šû#§?        D4’Œ›ÿÆ?ÔªÊ±?        £}S…ªÓ­?W¶/æ³#Å?                ñOºW±¸Ô?JÜˆ³½¡Ñ?ÆË-ªÓ?        ×ÒX+Ô?åDš®vÆ?y]4 sý¾?                pÏ˜½Ø?è%ÒJ‹JÏ?        näû?u»?        ÔÂª(Ôß›?F+‰*$Ê?šÆŽzç¨?        þžg¸ôÒ?–Ã ßŸùÖ?îfè…O×?                        ‰Ga[§cº?JòŠe´?         U3:t’?                                Ö:ãÆgŸ?ŠÄÒŽhÎ?:Sšx9“Ð?        x
-Ó)+DÖ?        _öU"yØ?%Tv>¢É?ú‰Dø®$Â?                5t„¶žoÊ?ŽáøôÄÖ?        ðËw¿0Ñ?Çc§@–RÈ?N€äî¦5Õ?õB“<;"Ð?ãÅ6"²”Å?                }$—.Ù?        ð 0z9½?`;÷Â›Á?´'fz¾}?                        yÔžj×?µ…šI9¼Ò?ô”¶h2WÒ?        PÚe)µÖ?        ×.§o–)¶?Ã¹ou£—¯?57â"Çq²?€ªÉ?Š$‹PŽÆ?]„¯,4æÑ?        îÓØä‰iË?K>Èþ­qÓ?                        ÅâQÇHÀ?.?&¨v¾?        ´Öû8¸Ai?                433333ã?                        ­’§Êüå¾        šæ”a>ä>°YÜ™æ«>433333ã?Cáz®Gá?Àš(Ùµ‰â?Ìz®GáÚ?j%»6á?#33333Ó?æsüá€Çß?ÿÖ£p=
-Ç?¦Òy‹!Ý?²…ëQ¸®?©·§–{Ú?«ÝbHç-Ö?}Y}© Õ×?~C:o1Ô?zxüáÐ?­U²k%Ë?DhHç-†Ä?Ûñ¼ÅÎ»?¡"Òy‹!­?SA«/u?°ÜÓã?õæ-†tÞâ?Ø@«/´â?^¨ Õ—
-â?~N#,÷4â? ô¥‚V_â?©…ëQ¸Þ?E8àá?/\›(Ùµá? ¶Òy‹á?–{aá?þw‹!·à?xüáà?ÄÎ[á?ùÖ£p=
-×?øÑË=à?ó+†tÞbà?ñ…8à?ñß€Çà?sìÚDÉÞ?8Üñ‡ß?(÷4Ârß?¢…ëQ¸Î?¯Dç-†tÞ?ìøá€ÇÞ?#­ÜÓËÝ?ba×&JvÝ?¬…ëQ¸¾?‰æ¼ÅÎÛ?J2ÂrO#Ü?~ÇxÜ?àÉÌÌÌÌÜ?Èš·ÒyÛ?O²k%Û?W­¾TÐÚ?xÔ—
-Z}Ù?8 ·ÒÙ?ôk¢d×&Ú?²ˆ’]›(Ù?ì<°ÜÓØ?"ñ‡Ø?R¥‚V_*Ø?®)hõ¥‚Ö?±um¢d×Ö?¨ÁrO#,×?˜xüá€×?¢‘]›(ÙÕ?™EXîi„Õ?“ùRA«/Õ?Œ­M”ìÚÔ?„aHç-†Ô?õå-†tÞÒ?Ï13333Ó?°}8àñ‡Ó?‘É=°ÜÓ?'š(Ùµ‰Ò?^N#,÷4Ò?œ8àÑ?Ü¶Òy‹Ñ?%k%»6Ñ?Ëáñ‡Ï?yüá€ÇÏ?6ˆ8Ð?ÙÓË=Ð?yJç-†tÎ?+³ÜÓËÍ?äÒy‹!Í?Œ„ÇxÌ?$í¼ÅÎË?7÷‡È?êŽ’]›(É?Ž&·ÒÉ?%¾§–{Ê?v_}© ÕÇ?²ÇrO#,Ç?ä/hõ¥‚Æ?˜]›(ÙÅ?' SA«/Å?ž8àÁ? (Ùµ‰Â?w83333Ã?^Ð=°ÜÃ?®p%»6Á?¿ØË=À?šüá€Ç¿?¶Qç-†t¾?Ì!Òy‹!½?Ì1hõ¥‚¶?×a}© Õ·?Þ‘’]›(¹?ßÁ§–{º?¾SA«/µ?¬Ñ=°Ü³?™¡(Ùµ‰²?‚q%»6±?Ö‚üá€Ç¯?½¡(Ùµ‰¢?øSA«/¥?4b}© Õ§?mÂ§–{ª?ƒüá€ÇŸ?ˆÂ§–{š?SA«/•?&ƒüá€Ç?SA«/…?~CrT§Ì×?v™*Å¥°?€°ÝÉ ŠÌ?[cCcÕ?ô¶[gà?                ìßÈiß?ò‰Èû<à?6‡Pã?                                B<2=;tÄ?        u6	IÛ?@b’@¿•?                                        ¼£.9…â?ä³ÁwÓÃÜ?Ô9f	¶¹?×Ì#'s”Ñ?ÒyþÍpE½?dÙx¿y«?|ÿ7åu(Ô?Z+â?                ˜)Ô1éÑ?|oˆþ™Þ×?Ãç(ÔÝ?›ÜÕEÎÁ?TOiË3ª?                                        §«gú)#×?ßò}ûÜÍ?í‚„ nw?        ØµÛÝÏ?³)œÁ Ë?        úU—ÞÚ?ßz>2á?á½ýuD„Ð?¡Ù(6fë¿?        t‰@!Ã?        Qèæ&âÙÇ?wzá…KÀÞ?ÜË0Ú‘¸â?¢Í²f„Ú?),iëAÅ?£ñÏ0ëA¢?îb|³¨É?€+Nh:Ô?        ·)já• ´?        ›&—eá?yÃz0â?                                        –^–¤8Õ?¹Ò*"Vi­?°g-‹ø~Ó?                        “XˆØ?æ]ñŒ‡¾ß?                ®ómà6Ö?                ¨ÇWóí$Ö?#òòRuyÚ?2ç ÓUºá?Å¡¯ÁUs?“ú†&ÀÉ?ÓoƒàË?÷Ï"1{ÕÒ?                        ªÿÆ$’Ý?òjrœà?“ˆÍÝà?        ãIévò»?        {¾Œµ`tÙ?        e½À.Û?ÃXéåãÔ?Št/ÃwÂ?                ‰ryÑÀÙ¬?«Å`º˜:Æ? ²Hbrû°?        ÖGè#~3Í?ŽÉ?y Z±?        z´?Ñ?Õi{½°Wº?        ÁÙ;¡À^¶?-Mæ7ŽµÏ?                =Ææ2
-ß?®¡œ¼œrÚ?\wâ{CÝ?        èíÕÀ(Þ?	#ÙÐ?²óˆù>Ç?                Ä%®ƒ2Žâ?—÷l§èw×?        D”^‘ ˜Ä?        ÞQú˜àç¤?Í»TŽ›Ó?¥ùT-›­²?        h¼ÊoÜ?õ˜Ï7;á?˜¥B—{á?                        \¤'ã½ÊÃ?½©‚k˜¾?        º"Yb+›?                                ²$Ö§?®_bMkÎÖ?èR˜ÖÜØ?        üìw ³à?        ›i ØÙZâ?Ï(Þ9*Ó?£È7Ë?                ‘³28·ÓÓ?îêæÄá?        =
-’bÉÙ?Yd.ð=Ò?ç‰7zÐß?P»«X3Ø?>røÈ…/Ð?                ùq³0ñââ?        ÄsEëÅ?,’‘g£iÊ?„ÂµâÕN†?                        "Až|öá?N·VÜ?Ä°ÂmË‚Û?        9$ßá?        Âu0ŸÀ?Ì	QU»±·?Ò™q«ª»?zªØ`ËÒ?r5ÍõêÐ?P¸NÙÚ?        ˆwS<'Ô? +ÝÎ„*Ý?                        9ËqY+mÈ?ä[~Ÿ˜”Æ?        QþUñr?                š™™™™™é?                        ºÁ Sí¾        rÂ_Ìÿê>2…õ	Ù™²>š™™™™™é?×£p=
-ç?¥v‹!·è?üQ¸…ëá?Ð1o1¤óæ?Ï™™™™™Ù?ìîRA«/å?ú…ëQ¸Î?ù¬6Q²kã?¤®Gáz´?¥ka¹§á?ÞÙµ‰’Ý?âUüá€Çß?R¦®M”ìÚ?	hõ¥‚Ö?Kn!·Ò?ÿ©µ‰’]Ë?Êy(Ùµ‰Â?Õ–6Q²k³?{ÃÃ?|?×–{aé?ˆ’]›(é?bÿŽ?ðè?˜Ü€Çè?De„åžFè?îí‡è?…®Gázä?ûS}© Õç?]Ëy‹!ç?ÍBvm¢dç?GºrO#,ç?˜d×&Jæ?ó hõ¥‚æ?Z©k%»æ?å…ëQ¸Þ?4a¹§æ?ß‡]›(Ùå?ŽÿY}© å?=wV_*hå?VHç-†ä?QÞK­¾ä?šfO#,÷ä?¦®GázÔ?ÖÍDÉ®Mä?›EA«/ä?c½=°Üã?,5:o1¤ã?¤®GázÄ?6Œ(Ùµ‰â?`,÷4Ââ?œ/´úâ?Á$3333ã?%»6Qâ?å{!·â?Âó8àá?KÓ<þà?e[%»6á?„ãC:oá?4Ké¼Åà? ÃË=à?;­¾Tà?þ²?à?Øàñ‡Þ?Ó%ç-†tÞ?Õ5îi„åÞ?ØEõ¥‚Vß?éõÑy‹!Ý?òåÊ=°Ü?ÿÕÃ?Ü?Æ¼ÅÎÛ?/¶µ‰’]Û?g’]›(Ù?Ýv™™™™Ù?­† Õ—
-Ú?|–§–{Ú?SW‹!·Ø?˜G„åžFØ?ä7}© Õ×?<(vm¢d×?œo1¤óÖ?éÊK­¾Ô?eÚRA«/Õ?èéY}© Õ?rù`¹§Ö?r»DÉ®MÔ?ý«=°ÜÓ?‹œ6Q²kÓ?/´úÒ?²}(Ùµ‰Ò?Õ0­¾TÐ?.@é¼ÅÐ?ŠO%»6Ñ?è^a¹§Ñ?Cüá€ÇÏ?Z$îi„åÎ?ºàñ‡Î?çÑy‹!Í?ŒÈÃ?Ì?0}© ÕÇ?wN‹!·È?òl™™™™É?t‹§–{Ê?™o1¤óÆ?2ó`¹§Æ?ÏÔRA«/Å?r¶DÉ®MÄ?˜6Q²kÃ?dàñ‡¾?æ=üá€Ç¿?5=é¼ÅÀ?|[a¹§Á?ìÄÃ?¼?wˆ§–{º?L‹!·¸?–o1¤ó¶?2ÓRA«/µ?BK‹!·¨?ÍÃÃ?¬?c<üá€Ç¯?€Za¹§±?ÀÒRA«/¥??Za¹§¡?ŒÃÃ?œ? ÒRA«/•?ÃÃ?Œ?÷o'Š»ß?yj¦´†_µ?÷ròªÓ?ÙËŸ„¼Ü?ÝúÇ	$ßå?                œóä´0ñä?ŠrÄë¤¦å?àƒ êgé?                                RÞÐ¤EË?        ;S#ª0â?— Ïüþœ?                                        ›!³¡±è?Æ±ÈÄ7-ã?qb/Ï­À?KJ™p×?Äcà
- ƒÃ?
-VÔ¹Q²?lÀÙpàÚ?‘iY$è?                ÆR†—á×?Ï;Ñ¾wÓß?^0¨û«âã?YdÓï²½Ç?;ÃÆíÝw±?                                        ëOÙÞ?Ø‘j§èÓ?¥7ý6F=?        åv(¶²Ô?rˆLÀÀÒ?        ‹p¬Ô>iá?Ï¾Ã¨íæ?•ŒÜ°Ö?x üú˜GÅ?        F¡ïß«É?        ÿ#1¥åÌÏ?ãÝx2€ä?krù­öè?Þ„Ï´­á?:”m»|WÌ?»ä:æW¨?UZ7Æ¹Ð?8Œƒ*‹øÚ?        ¿û„q«º?        J-Ý½2ç?<òw£@è?                                        ç»˜Þ…KÜ?.ŠÄ›³?È Ëø þÙ?                        ®oºZà?ï{èÒ¯)å?                Èë­’€žÝ?                õÙ’†Ý?½PM0`¦á?c>äù£ç?¬/¡ï•?°i>HÄ*Ñ?Œcýµ¬•Ò?1½€¤Ù?                        ý9Ìâ¶eã?;êÀÍ%nå?ô­ý†ª|æ?        rEÒ’£¡Â?        S`¥˜@øà?        Ýî‹³â?ú«‘¢‡ÚÛ?Ì‚ág¯ŸÈ?                ÿâÝÖ;³?ôÙ1¾£Í?¬»¤¶?        f‚.©wÓ?Þ¦Â¤#·?        |þC›ÿÖ?Öp§ËÁ?        jŒ~¬Ó½?ˆô}d´#Õ?                Uká–±¸ä?¬ø¯ò½¡á?&¨¤Ý,ªã?        –¸«+ä?%#“¯vÖ?
-ð—#rýÎ?                ®éõ˜½è?î_ É‹Jß?        «u_C€uË?        D•Øß«?Pœovã#Ú?JãÞ”xç¸?        •)Å¦¸ôâ?Ñ¤ÙŸŸùæ?OØ_bOç?                        È¿ýW¨cÊ?‚î‚œeÄ?        ÆˆÁGp¢?                                ØUûÉg¯?é?QhÞ?6s99“à?        Ž%úh+Dæ?        åz•"yè?øÄ¼¢Ù?%Töy®$Ò?                –°Ò4ŸoÚ?ÎÕ8‚Åæ?        mè¨¶¿0á?|-YÂ•RØ?êa½¯¦5å?õ%lý:"à?… ²”Õ?                #ûüË–.é?        Í²{3y9Í?yE„Â›Ñ?—}`œj¾?                        ÑµàÛjç?f¡Áˆ9¼â?w)2Wâ?        Z6¥)µæ?        Û¾
-s•)Æ?›¦¨n¥—¿?$®~ÈqÂ?M—Ã¼OÙ?ãî<ÒœŽÖ?ºfˆí3æá?        œŠf‰iÛ?ó¡¿­qã?                        ýJ0ÐÇHÐ?hÑ‰«uÎ?        POŠÌ×Ay?                      ð?                        DãhÃ!Uò¾        .Üè‚áð>íM t@·>      ð?äÌÌÌÌÌì?ÏUîi„åî?fffffæ?Ë=°ì?&     à?¨°§–{ê?f33333Ó?R`„åžFè?à™™™™™¹?‚a¹§æ?B²§–{â?:Â=°Üã?¨8°ÜÓà?x/ÂrO#Ü?ëi„åžÖ?§–{Ñ?ÌÄrO#,Ç?]o„åžF¸?€a¹§?u•{a¹ï?ì*÷4Ârï?ZÀrO#,ï?va¹§î?ã€åžFXî?Xëi„åžî?¼™™™™™é?
-¬ÜÓËí? AXîi„í?9×ÓË=í?älO#,÷ì?ÆÃ=°Üë?.ÂrO#ì?J˜FXîiì?[33333ã?‹Y¹§–ë?Jï4ÂrOë?…°ÜÓë?Ü,÷4Âê?era¹§é?vÜžFXîé?ŒF#,÷4ê?Ø™™™™™Ù?^–{aé?Vž–{é?N4°ÜÓè?PÊË=è?Þ™™™™™É?P¸rO#,ç?M"÷4Ârç?KŒ{a¹ç?Nöÿÿÿÿç?TNîi„åæ?Zäi„åžæ?jzåžFXæ?îÒÓË=å?Ã<Xîi„å?Ÿ¦ÜÓËå? iO#,÷ä?TÿÊ=°ä?’•FXîiä?â+ÂrO#ä?Ú,÷4Ââ?t…°ÜÓã?ï4ÂrOã? X¹§–ã?®H#,÷4â?ßžFXîá?‡ua¹§á?ê–{aá?J¢–{á?'$÷4Ârß?z÷ÿÿÿÿß?de„åžFà?ÏË=à?ÄPîi„åÞ?`}åžFXÞ?ó©ÜÓËÝ?vÖÓË=Ý?þË=°Ü?ûàžFXîÙ?¬´§–{Ú?Pˆ°ÜÓÛ?ê[¹§–Û?O–{aÙ?¤9°ÜÓØ?þe„åžFØ?\’{a¹×?º¾rO#,×?ÈœFXîiÔ?`pO#,÷Ô?ñCXîi„Õ?†a¹§Ö?+É=°ÜÓ?Žõ4ÂrOÓ?î!,÷4ÂÒ?NN#,÷4Ò?±za¹§Ñ?L±ÜÓËÍ?¥Xîi„åÎ?èÿÿÿÿÿÏ?ŠÓË=Ð?é	Ë=°Ì?‰b¹§–Ë?»§–{Ê?¸–{aÉ?Jl„åžFÈ?O&,÷4ÂÂ?üÍ=°ÜÃ?¢uO#,÷Ä?:a¹§Æ?—~a¹§Á?ÞÖË=À?>^îi„å¾?¬Ë=°¼?¿§–{º?Å_îi„å®?Ða¹§±?¶Ï=°Ü³?‘a¹§¶?ã¿§–{ª?üa¹§¦?€a¹§¡?À§–{š?€a¹§‘?>FÔj6Õã?9Ÿó$g·º?_ŠN_UÈ×?[iÒõá?XkžäìVë?                ‚Ê¹	}-ê?ÿMë?Šå<ÛÀï?                                ¯>Q‡Ñ?        ¨Ïš½¼æ?r@²‡[¢?                                        ¼Ù„G
-Þî?Fz–Ý…øç?’…©™CÙÄ?vÎ¦M¿LÝ?W\*o‡dÈ?IPößæ¶?¬¼#ŽbÌà?cš÷–-
-î?                ñ¡¯ýÙÝ?8>§¯*äã?V°öÒVÛè?AÁ6J ­Í?`?¦ÖÕµ?                                        sËŸøGã?©1`õÐâØ?ÇyûA†ƒ?        õèËdßÙ?ó–?ñÖ?        ›*s±ŽÃå?‚†a©ì?ècæb‡Û?*«M›~™Ê?        ãZvâÏ?        —‡œáßÓ?\ö°>? é?p<Üq3ï?…ŒÊÛ!æ?³rí¥­¶Ñ?`ŸVCâm®?^x|Þ7èÔ?¦´öÒVÛà?        ñÆ®T&«À?        ôè¸E¦þì?Ð||ÌPî?                                        „ñƒƒ3¯á?ŠOÐøo‚¸?féÃ$?à?                        ’°zhqä?ž4>ïtê?                =.4ƒâ?                G6>ïtâ?x<ý1æ?²½Áä‹í?ë@×^Új›?ïK…©uuÕ?¾¶E”;×?+,$ðÍcß?                        JäÃ$?è?è–•¯Éê?ø±XPÕì?        Ú´ÙJÇ?        íVjæP6å?        a`Ó¦_¦æ?ç‡ÿ”há?hHà›ÇÎ?                .8ÒÍ
-¸?4ß`Ê„†Ò?©êâ<SL¼?        ^W*“UØ?×îQ^ì¼?        þú‚¿Ü?*-»/¿óÅ?        =6†mL¤Â?¦¼ÔÌ¡lÚ?                m`5$Þæé?€”÷–-
-æ?VFrí·”è?        ^{¸õ!é?x7ï-[Ü?‘íg^Ó?                äÑWŒþìî?¥ÜO…—Žã?        ŸäÚo)Ñ?        žŸÎMèk±??*i4WVà?f>:}U!¿?        Eøæ±ç? ~4`¸ì?úö5$#í?                        ˆÛ5†I~Ð?Â<É?        fàøßI‰¦?                                „ïñyß ³?x	GºYã?U{4`¸ä?        ¹GÔj6Õë?        Eo bk—î?ÿ,»ñß? ã<ÉÙ­Ö?                	SŸ¨Ã…à?Í¢c˜uvì?        ÁÀîËï|å?]u¸ã:gÞ?µ,4ƒê?à§+•É*ä?LÝ—ßùÚ?                §`W<zï?        PFöpëCÒ?„Žt³Ö?ë J®ý–’?                        JS=+EEí?F¦Hkç?[ÊWŒþìæ?        <Ý5tbì?        ”R_1ú³Ë?êÝ—È¾Ã?¾ÔÌÅ:Ç?¬-—QSß?z'•·C2Ü?nöNÁÀ_æ?        G{¸õ!á?YÜíNè?                        Æ¤súZÔ?ñÿ;)ÑÒ?        Üüva’?                333333ó?                        6¦âý?ö¾        m¼"ÎBô>üž¼ç»>333333ó?Páz®Gñ?š˜(Ùµ‰ò?{®Gáê?'d%»6ñ?l33333ã?Haüá€Çï?c×£p=
-×?ýÑy‹!í?/…ëQ¸¾?›§–{ê?rÁbHç-æ?“;}© Õç?ƒüB:o1ä?º
-xüáà?Ü1²k%Û?,MHç-†Ô?¾Ì¼ÅÎË?ûÑy‹!½?VåRA«/…?…Œ°ÜÓó?Úå-†tÞò?:?«/´ò?Ë¤ Õ—
-ò?aK#,÷4ò?þñ¥‚V_ò?Ý…ëQ¸î?>þ8àñ?³W›(Ùµñ?(±Òy‹ñ?¨
-–{añ?³p‹!·ð?-xüáð?©½Î[ñ?C×£p=
-ç?@ÊË=ð?Î#†tÞbð?d}8ð?ÿÖ€Çð?–{ìÚDÉî?Èñ‡ï?¦÷4Ârï?…ëQ¸Þ?/ç-†tî?âá€Çî?–ÜÓËí?’I×&Jví?.…ëQ¸Î?ÎË¼ÅÎë?ÂrO#ì?^dÇxì?´°ÌÌÌÌì?‘·Òyë?]3²k%ë?9ç¬¾TÐê?ë¶—
-Z}é?ï·Òé?O¢d×&ê?÷j’]›(é?°ÜÓè?#Ó‡è?U‡‚V_*è?hõ¥‚æ?­Xm¢d×æ?I¤rO#,ç?ìïwüá€ç?åu]›(Ùå?X*Xîi„å?ØÞRA«/å?Z“M”ìÚä?èGHç-†ä?Ï-†tÞâ?f3333ã?Æe8àñ‡ã?$±=°Üã?¢ƒ(Ùµ‰â?@8#,÷4â?ßì8àá?}¡Òy‹á?V%»6á?›ºñ‡ß?VQüá€Çß?t8à?`¿Ë=à?Ù#ç-†tÞ?ÜÓËÝ?MöÑy‹!Ý?€_ÇxÜ?±È¼ÅÎÛ?„Ö‡Ø?Zm’]›(Ù?4·ÒÙ?›§–{Ú?¨?}© Õ×?È¨rO#,×?âhõ¥‚Ö?{]›(ÙÕ?äRA«/Õ?ñ8àÑ?,ˆ(Ùµ‰Ò?53333Ó?6¶=°ÜÓ?Z%»6Ñ?òÂË=Ð?¯Wüá€ÇÏ?h)ç-†tÎ?ûÑy‹!Í?shõ¥‚Æ?ÅA}© ÕÇ?p’]›(É?jž§–{Ê?åRA«/Å?Ä¶=°ÜÃ?qˆ(Ùµ‰Â?!Z%»6Á?§Wüá€Ç¿?‹ˆ(Ùµ‰²?,åRA«/µ?ÌA}© Õ·?jž§–{º?ÐWüá€Ç¯?Žž§–{ª?HåRA«/¥? Xüá€ÇŸ?XåRA«/•?FŒã§Ìç?üèÐŠ£À?
-¾°¬ÿ‰Ü?¡ÙÌ´bå?„{À×Zgð?                Be‚nÉiï?Õ=û<ð?Aäê?Pó?                                œî^Z<tÔ?        ¸ö.gÇHë?îÙ¨7¿¥?                                        Ý@îu9…ò?UXÔÃì?ï²¿C¸É?ÂP˜r”á?A¸¤“nEÍ?(B±"T|»??MÎsv(ä?Mfrò?                $œ’E1éá?áêño™Þç?uEQšÔí?‰’4òFÎÑ?$ÞÏ3º?                                        þôýˆ*#ç?¢ëÅ`úÜÝ?û·~ÞÜm‡?        \ûß?PÓÈÞ!Û?        «Ÿ-žÞê?nÙÁ>2ñ?”E„à?×ÏûcëÏ?        ¤ÀI¦A!Ó?        ¢ÎØâ<Ù×?2ÌwLÀî?ö–å’‘¸ò?wJØŽ„ê?©B<ÎœAÕ?8ƒ¥ïA²?Ï©Ð©Ù?Ç«· h:ä?        ðs§“ Ä?        `bÐÞ–eñ?¦óèÈz0ò?                                         ŽÇ¤8å?Zuw­Qi½?‚¶Ãù~ã?                        s‚üÉˆè?â±‡ˆ¾ï?                ¾p×à6æ?                (îî$æ?{ÿùôÇyê?l¯Õ‹Uºñ?¨ IØLs ?¨¥³*'ÀÙ?='¦R‚àÛ?¿¹¿{Õâ?                        µM]³’í?´.»*œð?u¿Ó€Ýð?        é‰ßsòË?        ”#Daté?        ¸â&2.ë?¡BÂZåãä?š)?LÄwÒ?                ´€,FÅÙ¼?!ànþ=;Ö?~,Ú'úÀ?        ØT»}3Ý?Jæ>žZÁ?        aˆë³?á?@áÔ÷²WÊ?        HV•ÛÂ^Æ?ÍòUµß?                ¶}Á
-ï?Æë2Krê?õøKíBí?        ô‘VGÀ(î?v[™±Ùà?T\Ü>×?                Uðb<2Žò? @6éwç?        »«1t˜Ô?        Ùj­åç´?¯Mì²šã?šEûò˜­Â?        ÿ´RYoì?à»Mˆ7;ñ? ñm{ñ?                        ¥WT ¿ÊÓ?’æ¹Gi˜Î?        4“òx"«?                                xÇ×uÚ·?a©øÛkÎæ?WÎwÕÜè?        ûQ¾ ³ð?        CškÚZò?!k¾l:*ã?g›ø7Û?                ßÉÆ·Óã?‚£í7îñ?        ˜S(ñÉé?†ç—òï=â?°q¨yÐï?£6÷X3è?ÂÄŽW†/à?                –=héðâò?        ÙF(ëÕ?z<¾„¤iÚ?ªÎèÄN–?                        áS5öñ?´hM¬Vì?ë.,ßÊ‚ë?        ñeVkßñ?        …!òW/ŸÐ?›„ª½±Ç?”ê«­ªË?Ì·z³Ëâ?ÿ¹‚>õêà?‘–!…MÙê?        .÷¼­&ä?w¬F@„*í?                        øwžv,mØ?opQ‚—”Ö?        ´'¤yñ‚?                ffffffö?                        ˆÙ‹ûÞ­ù¾        ›(æ˜¥÷>W(-ëFÀ>ffffffö?$\Âõ(ô?DZ}© õ?rÂõ(\ï?ÍLA«/ô?‡fffffæ?’(Ùµ‰ò?{®GáÚ?±×<þð?R¸…ëÁ?r:îi„åî?\ß8àé?¯Æ¼ÅÎë?|ÊøÃç?}ÿº6Q²ã?#púRA«ß?næ~8àñ×?`8Ð?N¹<þÀ?¶;‹!·ˆ?ÐN#,÷4ö?D7àñ‡ö?Á·Òõ?ÞÁÎ[õ?WÙÓË=õ?ÍðC:oõ?ïQ¸…ëñ?lªM”ìÚô?ÿ’
-Z}©ô?›{Çxô?1d„åžFô?¯xüá€ó?	»6Q²ó?k5þpÀãó?þz®Gáê?[ï4ÂrOó?Øñ‡ó?´À®M”ìò?a©k%»ò?*L_*hõñ?vc¢d×&ò?ÀzåžFXò?	R¸…ëá?Þ4ðøÃñ?’Ùµ‰’ñ?H–{añ?üîRA«/ñ?R¸…ëÑ?yz8ð?È‘FXîið?©‰’]›ð?hÀÌÌÌÌð?)cÀãð?²—úRA«ï?itÞbHï?Ú®[é¼í?]Ýá€Çî?âhõ¥‚î?^€Õ—
-Zí?âQO#,÷ì?r#É®M”ì?õB:o1ì?”¤óCê?Í;*hõ¥ê?j°ÜÓë?X˜6Q²kë?,±—
-Z}é?ú‚–{é?ÍT‹!·è?¦&­¾Tè?ø~8àñç?†àñ‡æ?|@ffffæ?znìÚDÉæ?vœrO#,ç?šäY}© å?³¶ÓË=å?ÕˆM”ìÚä?[Çxä?:-A«/ä?I¢d×&â?”v(Ùµ‰â?/¤®M”ìâ?ÐÑ4ÂrOã?yðøÃá?ðí•{aá?lÀ<þà?ð’‰’]›à?|e8à?IÉ®M”Ü?ê_Õ—
-ZÝ?™ºá€ÇÞ?Xîi„åÞ?¸ª¼ÅÎÛ?(P°ÜÓÛ?ªõ£óCÚ?6›—
-Z}Ù?Ï@‹!·Ø?R}M”ìÚÔ?Ž×Y}© Õ?Ñ1ffffÖ?ŒrO#,×? #A«/Ô?ðÈ4ÂrOÓ?Én(Ùµ‰Ò?¨ðøÃÑ?‘º<þÐ?äð£óCÊ?å¤¼ÅÎË?âXÕ—
-ZÍ?êîi„åÎ?ç<‹!·È?ìˆrO#,Ç?øÔY}© Å?!A«/Ä?*m(Ùµ‰Â?HÔY}© µ?Í;‹!·¸?^£¼ÅÎ»?ø
-îi„å¾?Êl(Ùµ‰²?™
-îi„å®?«;‹!·¨?Ãl(Ùµ‰¢?³;‹!·˜?¾£>kÄë?Xø C“³Â?ÉµíÔ¥à?ç¥ðò$é?„é05?#ó?                Di¦ñ
-Sò?0ÒíúÏñò?R`bÙ2:ö?                                Ì ‚ƒñÜ×?        ·ph/ÇÔï?ThmÉ_©?                                        ÃöÐm›õ?ì®‘Çð?°ÍÜ--0Í?å}Ez…‚ä?, ¼*Ñ?ûÌ 8	À?”§ziŠ„ç?]°Q! õ?                ¹«Ëîcåä? é: Ùë?ÃÕ(Vfñ?´7QßýÅÔ?žôü•É‘¾?                                        !G2‚\þê?ÊÖ‘ká?[îÁsU‹?        (&$
-`â?u*þR–ß?        ëèéš.xî?O;þóô?ñ®¶gûDã?e´$Ž¤žÒ?        0ìi±wQÖ?        £=`!„ÒÛ?¯: },ðñ?A1ÜdT×õ?k]lÄûïî?r†‡Ö‹ÌØ?ò½h©îLµ?>ÙâEÝ?dívy™ç?        k¹ VÇ?        °uÃ’ÚKô?×Ç”[8õ?                                        ¸w	|Âè?{Dq(Á?’Kn€Í¾æ?                        dFG	Åžì?”€é+z„ò?                HœÙ¯êé?                p¼Ÿ$ÁÕé?-®¼Šãî?}¤I¹®ô?l™
-+1£?ítåËØ
-Þ?UˆxöBà? ïa—ùå?                        6ÆÐY ùð?ÞºªÀ`Àò?Œ|‰­ó?        ¦ÿÒmMÐ?        æ‹Ý±q²í?        ©ºx­¸µï?’Iƒ6_è?î‘]Èº‹Õ?                !.^ÔÀ?„¸È:ðÙ?9×OþÍÃ?        Fãa³á?<¬9?Ä?        P¿§ä?¸õÿ¦»Î?        ±e«‰9Ê?¶Sª~>â?                úQc·›!ò?zpÛî?x ’îæ4ñ?        /cÅ—ñ?žÜ<ÜÙ§ã?Ï•¬‘ÂÛ?                Å™*å¥õ?iu¸ö:aë?        ,{íÎØ?        v%šMâc¸?ÎG ßæ?(`Rç†ÊÅ?        ž—Jå!–ð?J^€Xkô?ÈLbßDeô?                        xFvš4×?DZ¥çØÑ?        B7ÐúŒ¯?                                ËñÕz»?à¬~›ê?ÖtÍ}£í?        3õ8O¦{ó?        Nß×•þiõ?”èï[æ?Ðµö0Àß?                yôô«!ç?‚k¼¥¦ìó?        hºc&Pî?—ÙQcBHå?£g†ñŽò?Á”æ;ì?R0óââ?                ÅHŸÃö?        Ûà“¿H’Ù?ªÏñ´•ÐÞ?•Oqˆš?                        ÍI}ô?K€«²dð?¥tÿKð?        î#¿Ã„Þó?        1wadÓ?µÄ[³¤Ë?çi#Ð?@…À,Èíå?]"9‘È¼ã?	Œò8ÚRï?        xý’Wüç?,éN´wñ?                         ¿Ìù^Ü?N; ¨XÚ?        ‰‚Æ†?                ™™™™™™ù?                        e12ÿZý¾        £õ\µû>‘Þ©NšÂ>™™™™™™ù?×£p=
-÷?Gy‹!·ø?R¸…ëñ?{9o1¤óö?å™™™™™é?TûRA«/õ?&…ëQ¸Þ?¾6Q²kó?Ã®GázÄ?È€a¹§ñ?9Ùµ‰’í?”†üá€Çï?.Û®M”ìê?Œ<hõ¥‚æ?›!·â?°ñµ‰’]Û?¬(Ùµ‰Ò?VÌ6Q²kÃ?ÜÄ?Œ?–{aù?i‰’]›(ù?T?ðø?Há€Çø?Fi„åžFø?@ñ‡ø?˜®Gázô?MY}© Õ÷?PÑy‹!÷?XIvm¢d÷?hÁrO#,÷?
-¢d×&Jö?Õ)hõ¥‚ö?¦±k%»ö?…ëQ¸î?Ba¹§ö?€’]›(Ùõ?Â
-Z}© õ?	ƒV_*hõ?\dHç-†ô?ýëK­¾ô?¥sO#,÷ô?½®Gázä?·ÜDÉ®Mô?UA«/ô?hÍ=°Üó?¼E:o1¤ó?Å®GázÔ?jŸ(Ùµ‰ò?',÷4Âò?¼®/´úò?g63333ó?Â%»6Qò?!·ò?u8àñ?²é<þð?bq%»6ñ?ùC:oñ?bé¼Åð?WÚË=ð?ªR­¾Tð?øÊ?ð?–Hàñ‡î?$Xç-†tî?®gîi„åî?(wõ¥‚Vï?n)Òy‹!í?×Ë=°ì?<
-Ä?ì?—ú¼ÅÎë?æêµ‰’]ë? œ’]›(é?Ñ«™™™™é?¨» Õ—
-ê?nË§–{ê?&Œ‹!·è?K|„åžFè?jl}© Õç?}\vm¢dç?‰Lo1¤óæ?=üK­¾ä?VSA«/å?pZ}© å?„,a¹§æ?ìDÉ®Mä?öÛ=°Üã?ÌË6Q²kã?˜»/´úâ?`«(Ùµ‰â?8Z­¾Tà?ljé¼Åà?¤z%»6á?áŠa¹§á?ÿ“üá€Çß?sîi„åÞ?Sàñ‡Þ?£2Òy‹!Ý?/Ä?Ü?¯o}© Õ×?1‹!·Ø?¶°™™™™Ù?0Ñ§–{Ú?.Oo1¤óÖ?¬.a¹§Ö?-SA«/Õ?¤íDÉ®MÔ?Í6Q²kÓ?ìSàñ‡Î?E•üá€ÇÏ?Fké¼ÅÐ?å‹a¹§Ñ?™Ä?Ì?MÑ§–{Ê?	‹!·È?ÉNo1¤óÆ?SA«/Å?—‹!·¸?ÒÄ?¼?”üá€Ç¿?-‹a¹§Á?YSA«/µ?‹a¹§±?ÈÄ?¬?`SA«/¥?ÜÄ?œ?ýŒ„‹»ï?Hô2»‚_Å?Eµ§ó©ã?sCƒ¼ì?L™Š#ßõ?                Ùv41ñô?–l¤¦õ?VÒjgù?                                UþÅÌ¦EÛ?        a3Z^0ò?©¬Céìþ¬?                                        r|O2¢±ø?9÷C8-ó?çw,Ñ­Ð?"VîK˜pç?sÀ&žƒÓ?>
-lTÂ?á6ožàê?väDØ$ø?                fõ‡–áç?*€tÀvÓï?3Êy|«âó?V|ì´½×?s¤:çáwÁ?                                        nv‹ŽÙî? Õµk¦èã?e}ÂŸ=?        ”Ô&·²ä?q¡©¾Áâ?        IüÚS?iñ?«<3B©íö?Ü2éÚ±æ?ˆCþ–GÕ?        Z½©Ü­Ù?        h¤Ù¶Ëß?’gø2€ô?)þÊ.öø?’}VP´­ñ?‰´¾zWÜ?%ÂË-îW¸?Àp”
-Ç¹à?ÎÔ&,Šøê?        ¸‡‹m«Ê?        :¾®>2÷?qlHö£@ø?                                        ×<à„Kì?³Ë‰›Ã?Â(÷¡þé?                        uOAœ¹Zð?ˆþR°)õ?                ¡2Q”ží?                j?a×“†í?ÂpRã«¦ñ?#Îµz£÷?B¨Ò(	ï¥?ø€›FÅ*á?¥ ·«•â?]¢¥é?                        HÁúa·eó?Ó’N%nõ?-,«|ö?        ÞŸ–¡¡Ò?        çìÓAøð?        ãŒ]Œ²ò?4ô4¤†Úë?Öœ›d±ŸØ?                œåV×Ú;Ã?ä™íýì¤Ý?HÝ"«¡Æ?        xÅ®/¨wã?…5O«{#Ç?        .Fçšÿæ?ˆ˜*¤ÍÑ?        .m x°ÓÍ?­Ûbµ#å?                2ï²¸ô?ýƒÞq¾¡ñ?†Bv^,ªó?        ÛQ}š*ô?æBð°væ?çfÞ&pýÞ?                vÇ˜½ø?}}ÇŒJï?        
-å¥F~uÛ?        aDàß»?„\eL#ê?Ävk›tçÈ?        ñ±ó%¹ôò?L6« Ÿùö?h¸	¬O÷?                        ÖÝ·TªcÚ?ÿà4†šeÔ?        XÚTh²?                                ŸÆ<îÑg¿?‰^oOhî?!×Dº8“ð?        ;¥(è+Dö?        lôK#yø?/²!»£é?Ì”™{­$â?                ÏÑ/3 oê?Ìõ=5dÅö?        —t×5À0ñ?íuüÃ”Rè?øŽ0¦5õ?ÃÇ=~:"ð?Ç"âž³”å?                ?†ÎL–.ù?        ý%Â6w9Ý?4‘¢‚Ã›á? GÃÐJ¾?                        *F²\j÷?H*ð:¼ò?Œaª1Wò?        ×´/$*µö?        "Qv“)Ö?†®h©—Ï?#¹8ÊqÒ?E×Í"çé?26àÓ›Žæ??Zn3æñ?        …ä-hˆië?Üºr@­qó?                        Œ`ÎÈHà?rFÐ®sÞ?        S¦ÅcB‰?                ÌÌÌÌÌÌü?                        ¯zß€P„ ¿        C²
-Îéjþ>v'¢¹íÄ>ÌÌÌÌÌÌü?þQ¸…ëù?þç¼ÅÎû?O\Âõ(ô?`·Òù?ÍÌÌÌÌì?àW}© Õ÷?táz®Gá?¬’]›(Ùõ?C×£p=
-Ç?0Î=°Üó?V-Jvm¢ð?Ø8àñ?R±d×&Jî?Œ@´úRé?©ÍÅÎ[ä?l³ìÚDÉÞ?ÇM”ìÚÔ?­­]›(ÙÅ?I üá€Ç?œÓË=ü?hÚDÉ®Mü?.á€Çü?ŽüpÀãû?«õ4ÂrOû?×îøÃû?&×£p=
-÷?|­¾TÐú?l
-é¼Åú?j%»6Qú?fa¹§ú?h4Q²kù?c-´úRù?c&Ùµ‰’ù?páz®Gñ?w;°ÜÓø?ˆBÉ®M”ø?›I­¾Tø?»PA«/ø?•m1¤ó÷?Lfõ¥‚V÷?_¹§–÷?J×£p=
-ç?ôtm¢d×ö?W|© Õ—ö?ÆƒåžFXö?8‹!·ö?D×£p=
-×?|°M”ìÚô?	©–{õ?•¡Õ—
-Zõ?"š™™™™õ?ð·‰’]›ô?^¿ÅÎ[ô?ÅÆ?ô?Fäñ‡ó?êÜµ‰’]ó?Õy‹!ó?šë-†tÞò?ìòi„åžò?>ú¥‚V_ò?Œâ€Çò?&xüáð?ÁÒy‹!ñ?w–{añ?(Z}© ñ?”4†tÞbð?Ñ;ÂrO#ð?†üá€Çï?„”tÞbHï?ï¢ìÚDÉî?ŸêDÉ®Mì?IÜÌÌÌÌì?íÍTÐêKí?£¿ÜÓËí?ôø¼ÅÎë?M5ÂrOë? ­¾TÐê?î#%»6Qê?;2·Òé?:yõ¥‚Vç?k}© Õç?ò\­¾Tè?ÃN°ÜÓè?S‡m¢d×æ?m•åžFXæ?~£]›(Ùå?Ž±Õ—
-Zå?œ¿M”ìÚä?Ä¦‚V_â?Â÷-†tÞâ?Áéµ‰’]ã?¹Û=°Üã?Æ8àá?Æ!–{aá?È/xüáà?Æ=†tÞbà?—üá€Çß?9"­¾TÐÚ?Ÿ½ÅÎÛ?øêÌÌÌÌÜ?9ÏÜÓËÝ?Ä=·ÒÙ?MY°ÜÓØ?Ít}© Õ×?Cm¢d×Ö?¯«]›(ÙÕ?4xüáÐ?Þ8àÑ?¤ý-†tÞÒ?]â=°ÜÓ?qžüá€ÇÏ?ÅÔÜÓËÍ?½ÅÎË?TA·ÒÉ?†w}© ÕÇ?½ÅÎ»?øŸüá€Ç¿?è8àÁ?Îã=°ÜÃ?x}© Õ·? ä=°Ü³?@ üá€Ç¯?4x}© Õ§?F üá€ÇŸ?.×óU~Ùñ?JÏòqÈ?ò*ê~gå?}mì›	*ð?8tó×›ø?                d-~W÷?K{/Öx[ø?T3ô÷“ü?                                ŸìC6\®Þ?        ¥JÝSvô?²k¡cO°?                                        F¶’œÖÇû?|hopß’õ?Ç6…á‹ÃÒ?J‡y«^ê?Šr@ôÕ?dLŸÄ?õM…²<î?ÙÊF—)	û?                üxÉÝê?‚:H¨òæñ?lµÈ _ö?d[lµÚ?	VìCß¦Ã?                                        ÌåkR`Zñ?Ðø9ñºeæ?o¾Š»J’‘?        Ø¡SIç?Fjq>ZNä?        æ£Obg–ó?®írŽ^Ëù?dë8^hÆè?¤;&N‰ð×?        %$$(ä±Ü?        "¾bIjâá?ë;{9÷?æ«ðÙü?×ÿg¶jãó?L^¥†iâß?‚ð3îb»?^”Ù3 Ñâ?¬¹)›Wî?        †b.Ú Î?        J‹âaú?öÃ
-™¸Hû?                                        péP4õÔï?r;¯äùÆ?‘j ~v>í?                        ç+Ð«fò?2&S€æÎ÷?                _tŸ'©ð?                «ûM³›ð?ùm¨—Ûó?<æ—ú?Y¯ÃÎå¬¨?]†a7Pã? #¢æ`èä?C‡ðv:@ì?                        a3rnÒõ?j‚kÔéø?±ûêŠ@Lù?        èö8ÕõÔ?        ž²Ç^Ió?        ñï¹ˆbô?Ý÷È0×Uï?Ë?!¨³Û?                èRW£Å?Æ“ßñ¬à?úICD.uÉ?        â²íœæå?Ïî êÊ?        ˜•ñ	ßé?€•èÇÁÓ?        /meÓÇÐ?¸)W,Èç?                 4Ë|ÈO÷?ˆœdöÕó?Þ¼KÆqö?        ý­ÓÉžö?.ÝÀa†Eé?+…êÍŽná?                ´çîJÕû?~Þ/Tï™ñ?        8z•-äÞ?        j„YOÞ[¿?Ì©´‰gí?Ô˜bÌ?        îo«nPSõ?QÇàÒØù?S@,9ã8ú?                        i4/ °Ý?WGMòÖ?        ±ÿàSH´?                                "ŒÌ5gªÁ?í§PÑñ?–$”­Ÿ¥ò?        ¶'‰±ù?         ½ÎšGˆû?íxxzX¿ì?1ãBiä?                G\ˆ”½í?ªcD'žù?        A«‹`ØVó?©j‰ç\ë?‰§ÒZÜ÷?63ª&ò?’ù°ZJGè?                "oòhTü?        ,¡ÚÆRpà?Uxé:<Ïã?H‡D–» ?                        COäðWú?bwçlÁõ?–é³»¢ô?        ±ô®ŒÏ‹ù?        $ 6UÅîØ?þQuÚOÅÑ?0 ¥ïÀÔ?pðä—2ì?é£io`é?lø+¸ù"ô?        IA-¹Öî?RÄ‡Äâßõ?                        _¢Q0âQâ?-“bÊpïà?        µÃãLljŒ?                
