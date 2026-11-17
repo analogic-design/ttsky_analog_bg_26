@@ -1,0 +1,13 @@
+* SPICE3 file created from bg2_moscap_lvs.ext - technology: sky130A
+
+X0 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X1 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X2 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X3 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X4 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X5 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X6 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X7 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X8 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X9 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+

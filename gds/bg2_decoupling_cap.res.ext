@@ -1,0 +1,31 @@
+scale 1000 1 500000
+rnode "VDDA.n0" 0 10.3838 10840 14307 0
+rnode "VDDA.n1" 0 10.3845 8554 14307 0
+rnode "VDDA.n2" 0 10.6834 10840 14307 0
+rnode "VDDA.n3" 0 10.6834 8554 14307 0
+rnode "VDDA.n4" 0 10.7079 9697 3434 0
+rnode "VDDA.n5" 0 353.949 9697 3434 0
+rnode "VDDA.n6" 0 340.972 8554 14307 0
+rnode "VDDA.n7" 0 340.972 8554 14307 0
+rnode "VDDA.n8" 0 353.949 9697 25180 0
+rnode "VDDA.n9" 0 7.84363 9697 25180 0
+rnode "VDDA.n10" 0 80.4569 9700 25228 0
+rnode "VDDA" 0 75.6234 8550 25242 0
+resist "VDDA.n7" "VDDA.n6" 0.120875
+resist "VDDA.n10" "VDDA.n9" 0.362264
+resist "VDDA.n6" "VDDA.n2" 0.587407
+resist "VDDA.n7" "VDDA.n3" 0.587407
+resist "VDDA.n3" "VDDA.n1" 0.646853
+resist "VDDA.n2" "VDDA.n0" 0.646853
+resist "VDDA" "VDDA.n10" 2.91141
+resist "VDDA.n5" "VDDA.n4" 6.60714
+resist "VDDA.n9" "VDDA.n8" 6.60714
+resist "VDDA.n6" "VDDA.n5" 3924.09
+resist "VDDA.n8" "VDDA.n7" 3924.09
+resist "VDDA.n10" "VDDA.n0" 4224.62
+resist "VDDA.n9" "VDDA.n1" 4224.99
+resist "VDDA.n4" "VDDA.n1" 4517.27
+resist "VDDA.n4" "VDDA.n0" 4517.27
+resist "VDDA.n8" "VDDA.n2" 42349.4
+resist "VDDA.n5" "VDDA.n3" 42349.4
+rnode "vbp1" 0 1606.61 11106 25104 0

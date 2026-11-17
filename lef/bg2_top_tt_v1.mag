@@ -1,0 +1,17 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1794754622
+<< metal1 >>
+rect 36 21793 2356 21863
+rect 36 0 2356 70
+use bg2_moscap  bg2_moscap_0
+timestamp 1794666924
+transform 1 0 53 0 1 53
+box -53 -53 2339 21810
+<< labels >>
+flabel metal1 2327 29 2327 29 0 FreeSans 320 0 0 0 VGND
+port 1 nsew
+flabel metal1 44 21850 44 21850 0 FreeSans 320 0 0 0 VPWR
+port 2 nsew
+<< end >>

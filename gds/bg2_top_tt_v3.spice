@@ -1,0 +1,88 @@
+** sch_path: /home/lenny/projects/test/layout/bg2_top_tt_v3.sch
+**.subckt bg2_top_tt_v3 VGND VPWR vbp1 V_PLUS
+*.ipin VGND
+*.ipin VPWR
+*.opin vbp1
+*.opin V_PLUS
+x3 VPWR VGND bg2_moscap
+x7 VPWR vbp1 bg2_decoupling_cap
+x6 VPWR vbp1 V_PLUS VGND bg2_startup
+**.ends
+
+* expanding   symbol:  bg2_moscap.sym # of pins=2
+** sym_path: /home/lenny/projects/test/layout/bg2_moscap.sym
+** sch_path: /home/lenny/projects/test/layout/bg2_moscap.sch
+.subckt bg2_moscap VDDA AVSS
+*.ipin VDDA
+*.ipin AVSS
+XM1 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0 sd=0
++ mult=1
+XM2 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0 sd=0
++ mult=1
+XM3 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0 sd=0
++ mult=1
+XM4 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0 sd=0
++ mult=1
+XM5 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0 sd=0
++ mult=1
+XM6 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0 sd=0
++ mult=1
+XM7 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0 sd=0
++ mult=1
+XM8 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0 sd=0
++ mult=1
+XM9 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0 sd=0
++ mult=1
+XM10 AVSS VDDA AVSS AVSS sky130_fd_pr__nfet_01v8 L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0 sd=0
++ mult=1
+.ends
+
+
+* expanding   symbol:  bg2_decoupling_cap.sym # of pins=2
+** sym_path: /home/lenny/projects/test/layout/bg2_decoupling_cap.sym
+** sch_path: /home/lenny/projects/test/layout/bg2_decoupling_cap.sch
+.subckt bg2_decoupling_cap VDDA vbp1
+*.ipin VDDA
+*.ipin vbp1
+XM12 VDDA vbp1 VDDA VDDA sky130_fd_pr__pfet_01v8_lvt L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0
++ sd=0 mult=1
+XM1 VDDA vbp1 VDDA VDDA sky130_fd_pr__pfet_01v8_lvt L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0
++ sd=0 mult=1
+XM2 VDDA vbp1 VDDA VDDA sky130_fd_pr__pfet_01v8_lvt L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0
++ sd=0 mult=1
+XM3 VDDA vbp1 VDDA VDDA sky130_fd_pr__pfet_01v8_lvt L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0
++ sd=0 mult=1
+XM4 VDDA vbp1 VDDA VDDA sky130_fd_pr__pfet_01v8_lvt L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0
++ sd=0 mult=1
+XM5 VDDA vbp1 VDDA VDDA sky130_fd_pr__pfet_01v8_lvt L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0
++ sd=0 mult=1
+XM6 VDDA vbp1 VDDA VDDA sky130_fd_pr__pfet_01v8_lvt L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0
++ sd=0 mult=1
+XM7 VDDA vbp1 VDDA VDDA sky130_fd_pr__pfet_01v8_lvt L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0
++ sd=0 mult=1
+XM8 VDDA vbp1 VDDA VDDA sky130_fd_pr__pfet_01v8_lvt L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0
++ sd=0 mult=1
+XM9 VDDA vbp1 VDDA VDDA sky130_fd_pr__pfet_01v8_lvt L=10 W=10 nf=1 ad=2.9 as=2.9 pd=20.58 ps=20.58 nrd=0.029 nrs=0.029 sa=0 sb=0
++ sd=0 mult=1
+.ends
+
+
+* expanding   symbol:  bg2_startup.sym # of pins=4
+** sym_path: /home/lenny/projects/test/layout/bg2_startup.sym
+** sch_path: /home/lenny/projects/test/layout/bg2_startup.sch
+.subckt bg2_startup VDDA vbp1 V_PLUS VSSA
+*.ipin VDDA
+*.ipin VSSA
+*.ipin vbp1
+*.opin V_PLUS
+XM1 V_PLUS net1 vbp1 VDDA sky130_fd_pr__pfet_01v8_lvt L=3 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=0.0725 nrs=0.0725 sa=0 sb=0
++ sd=0 mult=1
+XM2 net1 net1 VSSA VSSA sky130_fd_pr__nfet_01v8 L=100 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM11 net1 vbp1 VDDA VDDA sky130_fd_pr__pfet_01v8_lvt L=6 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=0.0725 nrs=0.0725 sa=0 sb=0
++ sd=0 mult=1
+XM3 net1 vbp1 VDDA VDDA sky130_fd_pr__pfet_01v8_lvt L=6 W=4 nf=1 ad=1.16 as=1.16 pd=8.58 ps=8.58 nrd=0.0725 nrs=0.0725 sa=0 sb=0
++ sd=0 mult=1
+.ends
+
+.end

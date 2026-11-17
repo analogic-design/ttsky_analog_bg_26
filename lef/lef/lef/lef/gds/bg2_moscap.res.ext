@@ -1,0 +1,31 @@
+scale 1000 1 500000
+rnode "VDDA" 0 1205.19 -7 21773 0
+rnode "AVSS.n0" 0 3.10907 1143 0 0
+rnode "AVSS.n1" 0 5.09946 1143 21656 0
+rnode "AVSS.n2" 0 164.731 1143 0 0
+rnode "AVSS.n3" 0 167.682 1143 21656 0
+rnode "AVSS.n4" 0 4.85194 2286 10828 0
+rnode "AVSS.n5" 0 4.97155 2286 10828 0
+rnode "AVSS.n6" 0 158.535 2286 10828 0
+rnode "AVSS.n7" 0 158.535 2286 10828 0
+rnode "AVSS.n8" 0 4.97155 0 10828 0
+rnode "AVSS.n9" 0 4.85101 0 10828 0
+rnode "AVSS.n10" 0 36.3673 1136 -18 0
+rnode "AVSS" 0 36.2012 2272 -25 0
+resist "AVSS.n7" "AVSS.n6" 0.918601
+resist "AVSS.n10" "AVSS.n0" 1.28
+resist "AVSS.n6" "AVSS.n5" 1.59428
+resist "AVSS.n8" "AVSS.n7" 1.59428
+resist "AVSS.n5" "AVSS.n4" 2.05263
+resist "AVSS.n9" "AVSS.n8" 2.05263
+resist "AVSS" "AVSS.n10" 2.32857
+resist "AVSS.n3" "AVSS.n1" 20.8929
+resist "AVSS.n2" "AVSS.n0" 20.8929
+resist "AVSS.n10" "AVSS.n9" 4277.75
+resist "AVSS.n4" "AVSS.n0" 4279.03
+resist "AVSS.n4" "AVSS.n1" 4465.44
+resist "AVSS.n9" "AVSS.n1" 4465.44
+resist "AVSS.n7" "AVSS.n3" 15481.5
+resist "AVSS.n6" "AVSS.n2" 15481.5
+resist "AVSS.n5" "AVSS.n3" 69262.9
+resist "AVSS.n8" "AVSS.n2" 69262.9

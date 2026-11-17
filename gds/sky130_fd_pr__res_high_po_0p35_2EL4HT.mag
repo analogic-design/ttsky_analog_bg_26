@@ -1,7 +1,10 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1793629029
+timestamp 1793887296
+<< pwell >>
+rect -4 2876 10 2886
+rect -35 -2919 35 -2879
 << xpolycontact >>
 rect -35 2484 35 2916
 rect -35 -2916 35 -2484
@@ -60,8 +63,12 @@ rect -25 -2897 -17 -2863
 rect 17 -2897 25 -2863
 rect -25 -2910 25 -2897
 << labels >>
-rlabel locali s 0 2881 0 2881 4 R1
-rlabel locali s 0 -2881 0 -2881 4 R2
+flabel pwell 0 -2918 0 -2918 0 FreeSans 1600 0 0 0 VSUBS
+port 2 nsew
+flabel viali 0 2880 0 2880 0 FreeSans 320 0 0 0 VOUT
+port 3 nsew
+flabel viali 1 -2881 1 -2881 0 FreeSans 320 0 0 0 VIN
+port 1 nsew
 << properties >>
 string FIXED_BBOX -148 -3029 148 3029
 << end >>

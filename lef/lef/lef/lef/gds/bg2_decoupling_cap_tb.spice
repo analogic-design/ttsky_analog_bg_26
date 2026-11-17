@@ -1,0 +1,20 @@
+** sch_path: /home/lenny/projects/test/layout/bg2_decoupling_cap_tb.sch
+**.subckt bg2_decoupling_cap_tb
+V1 VDDA 0 1.8
+V2 vbp1 0 1.2
+x1 VDDA vbp1 bg2_decoupling_cap
+**** begin user architecture code
+
+.param strict_subcts=0
+.include bg2_decoupling_cap.spice
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.control
+tran 1m 10m
+print all
+save all
+write bg2_decoupling_cap_data.raw
+.endc
+
+**** end user architecture code
+**.ends
+.end

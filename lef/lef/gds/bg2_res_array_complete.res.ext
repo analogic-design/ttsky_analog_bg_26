@@ -1,0 +1,139 @@
+scale 1000 1 500000
+rnode "VREF" 0 0 4020 4630 0
+resist "R2_2_1" "VREF" 0.0
+rnode "R2_2_1_uq0" 0 0 1715 -83 0
+resist "VE_VMINUS" "R2_2_1_uq0" 0.0
+rnode "VE_VMINUS" 0 1948.05 2084 3136 0
+resist "R2_2_1_uq0" "VE_VMINUS" 0.0
+rnode "R2_27_3" 0 0 10008 -98 0
+rnode "AVSS.n0" 0 1.28402 326 5093 0
+rnode "AVSS.n1" 0 2.11779 326 4997 0
+rnode "AVSS.n2" 0 0.440796 -11 4595 0
+rnode "AVSS.n3" 0 0.440796 -11 4499 0
+rnode "AVSS.n4" 0 2.11779 326 4097 0
+rnode "AVSS.n5" 0 2.11779 326 4001 0
+rnode "AVSS.n6" 0 0.440796 -11 3599 0
+rnode "AVSS.n7" 0 0.440796 -11 3503 0
+rnode "AVSS.n8" 0 2.11779 326 3101 0
+rnode "AVSS.n9" 0 2.11779 326 3005 0
+rnode "AVSS.n10" 0 0.409156 -11 2603 0
+rnode "AVSS.n11" 0 56.3027 1696 -15 0
+rnode "AVSS.n12" 0 6.61628 -9 5126 0
+rnode "AVSS.n13" 0 433.216 0 2555 0
+rnode "AVSS.n14" 0 6.79952 6837 0 0
+rnode "AVSS.n15" 0 67.8945 13674 2555 0
+rnode "AVSS.n16" 0 44.9807 1696 5124 0
+rnode "AVSS.n17" 0 433.216 13674 2555 0
+rnode "AVSS.n18" 0 7.25218 6837 0 0
+rnode "AVSS.n19" 0 420.666 6837 0 0
+rnode "AVSS.n20" 0 420.666 6837 5110 0
+rnode "AVSS.n21" 0 7.25218 6837 5110 0
+rnode "AVSS.n22" 0 6.79952 6837 5110 0
+rnode "AVSS.n23" 0 4.90162 6835 5125 0
+rnode "AVSS.n24" 0 37.7953 6835 5125 0
+rnode "AVSS.n25" 0 94.5943 11945 314 0
+rnode "AVSS.n26" 0 49.1968 6835 -14 0
+rnode "AVSS.n27" 0 6.80242 6835 -14 0
+rnode "AVSS.n28" 0 8.06387 -7 2555 0
+rnode "AVSS.n29" 0 0.536332 -7 2555 0
+rnode "AVSS.n30" 0 31.3157 326 2507 0
+rnode "AVSS.n31" 0 3.82992 326 2603 0
+rnode "AVSS.n32" 0 2.11779 326 2769 0
+rnode "AVSS.n33" 0 0.440796 -11 2839 0
+rnode "AVSS.n34" 0 0.440796 -11 2935 0
+rnode "AVSS.n35" 0 0.440796 -11 3171 0
+rnode "AVSS.n36" 0 0.440796 -11 3267 0
+rnode "AVSS.n37" 0 2.11779 326 3337 0
+rnode "AVSS.n38" 0 2.11779 326 3433 0
+rnode "AVSS.n39" 0 2.11779 326 3669 0
+rnode "AVSS.n40" 0 2.11779 326 3765 0
+rnode "AVSS.n41" 0 0.440796 -11 3835 0
+rnode "AVSS.n42" 0 0.440796 -11 3931 0
+rnode "AVSS.n43" 0 0.440796 -11 4167 0
+rnode "AVSS.n44" 0 0.440796 -11 4263 0
+rnode "AVSS.n45" 0 2.11779 326 4333 0
+rnode "AVSS.n46" 0 2.11779 326 4429 0
+rnode "AVSS.n47" 0 2.11779 326 4665 0
+rnode "AVSS.n48" 0 2.11779 326 4761 0
+rnode "AVSS.n49" 0 0.440796 -11 4831 0
+rnode "AVSS.n50" 0 0.442795 -11 4927 0
+rnode "AVSS" 0 0.345514 -9 5126 0
+resist "AVSS.n27" "AVSS.n26" 0.0486911
+resist "AVSS.n24" "AVSS.n23" 0.0486911
+resist "AVSS.n29" "AVSS.n10" 0.103448
+resist "AVSS.n29" "AVSS.n28" 0.130986
+resist "AVSS.n1" "AVSS.n0" 0.206897
+resist "AVSS.n48" "AVSS.n1" 0.206897
+resist "AVSS.n50" "AVSS.n49" 0.206897
+resist "AVSS.n49" "AVSS.n2" 0.206897
+resist "AVSS.n48" "AVSS.n47" 0.206897
+resist "AVSS.n47" "AVSS.n46" 0.206897
+resist "AVSS.n3" "AVSS.n2" 0.206897
+resist "AVSS.n44" "AVSS.n3" 0.206897
+resist "AVSS.n46" "AVSS.n45" 0.206897
+resist "AVSS.n45" "AVSS.n4" 0.206897
+resist "AVSS.n44" "AVSS.n43" 0.206897
+resist "AVSS.n43" "AVSS.n42" 0.206897
+resist "AVSS.n5" "AVSS.n4" 0.206897
+resist "AVSS.n40" "AVSS.n5" 0.206897
+resist "AVSS.n42" "AVSS.n41" 0.206897
+resist "AVSS.n41" "AVSS.n6" 0.206897
+resist "AVSS.n40" "AVSS.n39" 0.206897
+resist "AVSS.n39" "AVSS.n38" 0.206897
+resist "AVSS.n7" "AVSS.n6" 0.206897
+resist "AVSS.n36" "AVSS.n7" 0.206897
+resist "AVSS.n38" "AVSS.n37" 0.206897
+resist "AVSS.n37" "AVSS.n8" 0.206897
+resist "AVSS.n36" "AVSS.n35" 0.206897
+resist "AVSS.n35" "AVSS.n34" 0.206897
+resist "AVSS.n9" "AVSS.n8" 0.206897
+resist "AVSS.n32" "AVSS.n9" 0.206897
+resist "AVSS.n34" "AVSS.n33" 0.206897
+resist "AVSS.n33" "AVSS.n10" 0.206897
+resist "AVSS.n32" "AVSS.n31" 0.206897
+resist "AVSS" "AVSS.n50" 0.210865
+resist "AVSS.n30" "AVSS.n29" 0.270728
+resist "AVSS.n31" "AVSS.n30" 0.374173
+resist "AVSS.n27" "AVSS.n14" 0.406349
+resist "AVSS.n23" "AVSS.n22" 0.406349
+resist "AVSS.n20" "AVSS.n19" 0.548023
+resist "AVSS.n50" "AVSS.n1" 0.601786
+resist "AVSS.n49" "AVSS.n48" 0.601786
+resist "AVSS.n47" "AVSS.n2" 0.601786
+resist "AVSS.n46" "AVSS.n3" 0.601786
+resist "AVSS.n45" "AVSS.n44" 0.601786
+resist "AVSS.n43" "AVSS.n4" 0.601786
+resist "AVSS.n42" "AVSS.n5" 0.601786
+resist "AVSS.n41" "AVSS.n40" 0.601786
+resist "AVSS.n39" "AVSS.n6" 0.601786
+resist "AVSS.n38" "AVSS.n7" 0.601786
+resist "AVSS.n37" "AVSS.n36" 0.601786
+resist "AVSS.n35" "AVSS.n8" 0.601786
+resist "AVSS.n34" "AVSS.n9" 0.601786
+resist "AVSS.n33" "AVSS.n32" 0.601786
+resist "AVSS.n31" "AVSS.n10" 0.601786
+resist "AVSS" "AVSS.n0" 0.664683
+resist "AVSS.n25" "AVSS.n15" 1.25644
+resist "AVSS.n21" "AVSS.n20" 2.66654
+resist "AVSS.n19" "AVSS.n18" 2.66654
+resist "AVSS.n16" "AVSS.n0" 2.71825
+resist "AVSS.n18" "AVSS.n14" 2.9397
+resist "AVSS.n22" "AVSS.n21" 2.9397
+resist "AVSS.n30" "AVSS.n11" 4.28585
+resist "AVSS.n28" "AVSS.n13" 8.0137
+resist "AVSS.n17" "AVSS.n15" 8.0137
+resist "AVSS.n16" "AVSS.n11" 9.58769
+resist "AVSS.n24" "AVSS.n16" 10.0635
+resist "AVSS.n26" "AVSS.n11" 10.0635
+resist "AVSS.n26" "AVSS.n25" 11.2873
+resist "AVSS.n25" "AVSS.n24" 12.5574
+resist "AVSS.n28" "AVSS.n12" 560.517
+resist "AVSS.n23" "AVSS.n12" 1390.53
+resist "AVSS.n15" "AVSS.n14" 1950.23
+resist "AVSS.n22" "AVSS.n15" 1950.23
+resist "AVSS.n28" "AVSS.n27" 1951.04
+resist "AVSS.n20" "AVSS.n17" 5053.96
+resist "AVSS.n19" "AVSS.n13" 5053.96
+resist "AVSS.n21" "AVSS.n13" 54319.8
+resist "AVSS.n18" "AVSS.n17" 54319.8
+rnode "V_MINUS" 0 422.787 2252 5203 0

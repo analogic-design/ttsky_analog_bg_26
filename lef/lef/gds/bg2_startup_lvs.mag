@@ -1,0 +1,105 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1794489921
+<< nwell >>
+rect 883 -94 1875 987
+<< locali >>
+rect -17 1106 2761 1113
+rect -17 1079 33 1106
+rect 2702 1079 2761 1106
+rect 919 -17 953 17
+rect 1805 -17 1839 -3
+rect -17 -21793 27 -21766
+rect 414 -21793 469 -21766
+rect -17 -21800 469 -21793
+<< viali >>
+rect 33 1053 2702 1106
+rect 27 -21793 414 -21739
+<< metal1 >>
+rect -17 1106 2761 1113
+rect -17 1053 33 1106
+rect 2702 1053 2761 1106
+rect -17 1045 2761 1053
+rect 91 894 137 1045
+rect 2607 895 2653 1045
+rect 1339 261 1407 267
+rect 1339 209 1345 261
+rect 1401 209 1407 261
+rect 1339 202 1407 209
+rect 1281 80 1484 126
+rect 2537 80 2580 126
+rect 157 -16 223 -10
+rect 157 -113 163 -16
+rect 217 -113 223 -16
+rect 157 -1579 223 -113
+rect 1350 -234 1396 80
+rect 1675 -52 1801 -10
+rect 1675 -117 1700 -52
+rect 1771 -117 1801 -52
+rect 1675 -125 1801 -117
+rect 2008 -612 2126 -566
+rect 167 -1600 213 -1579
+rect 282 -1600 373 -1554
+rect 327 -2611 373 -1600
+rect 173 -21732 219 -21614
+rect -17 -21739 469 -21732
+rect -17 -21793 27 -21739
+rect 414 -21793 469 -21739
+rect -17 -21800 469 -21793
+<< via1 >>
+rect 1345 209 1401 261
+rect 163 -113 217 -16
+rect 1700 -117 1771 -52
+<< metal2 >>
+rect 1339 267 1795 289
+rect 1339 261 1693 267
+rect 1339 209 1345 261
+rect 1401 209 1693 261
+rect 1339 202 1693 209
+rect 1764 202 1795 267
+rect 1339 174 1795 202
+rect 157 -16 1801 -10
+rect 157 -113 163 -16
+rect 217 -52 1801 -16
+rect 217 -113 1700 -52
+rect 157 -117 1700 -113
+rect 1771 -117 1801 -52
+rect 157 -125 1801 -117
+<< via2 >>
+rect 1693 202 1764 267
+rect 1700 -117 1771 -52
+<< metal3 >>
+rect 1675 267 1795 289
+rect 1675 202 1693 267
+rect 1764 202 1795 267
+rect 1675 -52 1795 202
+rect 1675 -117 1700 -52
+rect 1771 -117 1795 -52
+rect 1675 -125 1795 -117
+use sky130_fd_pr__nfet_01v8_BH8H9B  sky130_fd_pr__nfet_01v8_BH8H9B_0
+timestamp 1794487914
+transform 0 1 226 -1 0 -11606
+box -10196 -279 10196 279
+use sky130_fd_pr__pfet_01v8_lvt_ATKBUG  sky130_fd_pr__pfet_01v8_lvt_ATKBUG_0
+timestamp 1794489921
+transform 1 0 2001 0 1 531
+box -694 -584 796 584
+use sky130_fd_pr__pfet_01v8_lvt_E9YYQQ  sky130_fd_pr__pfet_01v8_lvt_E9YYQQ_0
+timestamp 1794489921
+transform 1 0 743 0 1 531
+box -796 -584 694 584
+use sky130_fd_pr__pfet_01v8_lvt_RVE6BE  sky130_fd_pr__pfet_01v8_lvt_RVE6BE_0
+timestamp 1794489921
+transform 1 0 1702 0 1 -559
+box -496 -584 496 584
+<< labels >>
+flabel metal1 7 1080 7 1080 0 FreeSans 320 0 0 0 VDDA
+port 1 nsew
+flabel metal1 2570 106 2570 106 0 FreeSans 320 0 0 0 vbp1
+port 2 nsew
+flabel metal1 2093 -589 2093 -589 0 FreeSans 320 0 0 0 V_PLUS
+port 3 nsew
+flabel metal1 428 -21772 428 -21772 0 FreeSans 320 0 0 0 VSSA
+port 4 nsew
+<< end >>

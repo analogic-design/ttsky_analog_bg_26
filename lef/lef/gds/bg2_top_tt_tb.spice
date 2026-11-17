@@ -1,0 +1,19 @@
+** sch_path: /home/lenny/projects/test/layout/bg2_top_tt_tb.sch
+**.subckt bg2_top_tt_tb
+V1 VDDA 0 1.8
+x1 VDDA vbp1 VREF VMINUS VPLUS 0 bg2_top_tt
+**** begin user architecture code
+
+.param strict_subcts=0
+.include bg2_top_tt.spice
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.control
+dc temp 0 70 1
+print all
+save all
+write bg2_data.raw
+.endc
+
+**** end user architecture code
+**.ends
+.end

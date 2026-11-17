@@ -1,0 +1,32 @@
+scale 1000 1 500000
+rnode "VSSA.n0" 0 0 226 -21749 0
+rnode "VSSA.n1" 0 0 226 -1463 0
+rnode "VSSA.n2" 0 0 226 -21749 0
+rnode "VSSA.n3" 0 0 226 -1463 0
+rnode "VSSA.n4" 0 0 452 -11606 0
+rnode "VSSA.n5" 0 0 452 -11606 0
+rnode "VSSA.n6" 0 0 452 -11606 0
+rnode "VSSA.n7" 0 0 452 -11606 0
+rnode "VSSA.n8" 0 0 0 -11606 0
+rnode "VSSA.n9" 0 0 0 -11606 0
+rnode "VSSA.n10" 0 0 220 -21766 0
+rnode "VSSA" 0 0 428 -21772 0
+resist "VSSA.n7" "VSSA.n6" 0.918302
+resist "VSSA.n10" "VSSA.n0" 1.12941
+resist "VSSA.n6" "VSSA.n5" 1.74103
+resist "VSSA.n8" "VSSA.n7" 1.74103
+resist "VSSA.n5" "VSSA.n4" 2.19925
+resist "VSSA.n9" "VSSA.n8" 2.19925
+resist "VSSA" "VSSA.n10" 2.24235
+resist "VSSA.n3" "VSSA.n1" 146.25
+resist "VSSA.n2" "VSSA.n0" 146.25
+resist "VSSA.n10" "VSSA.n9" 3853.55
+resist "VSSA.n4" "VSSA.n0" 3854.68
+resist "VSSA.n4" "VSSA.n1" 3897.22
+resist "VSSA.n9" "VSSA.n1" 3897.22
+resist "VSSA.n7" "VSSA.n3" 12508.9
+resist "VSSA.n6" "VSSA.n2" 12508.9
+resist "VSSA.n5" "VSSA.n3" 59980.7
+resist "VSSA.n8" "VSSA.n2" 59980.7
+rnode "vbp1" 0 3.30403 2570 106 0
+rnode "V_PLUS" 0 0 2093 -589 0

@@ -1,0 +1,17 @@
+scale 1000 1 500000
+rnode "B.t0" 0 1346.56 0 531 0
+rnode "B.n0" 0 394.254 0 531 0
+rnode "B.n1" 0 46.5386 0 -531 0
+rnode "B" 0 244.221 0 -531 0
+resist "B.n0" "B.t0" 0.558547
+resist "B.n1" "B.n0" 9.6988
+resist "B" "B.n1" 10.2778
+resist "B" "B.n0" 721.673
+rnode "G" 0 2187.13 0 -428 0
+rnode "D.t0" 0 72.2529 -600 36 0
+rnode "D" 0 578.222 -629 36 0
+resist "D" "D.t0" 7.14125
+rnode "S.t0" 0 53.3509 600 36 0
+rnode "S" 0 426.954 629 36 0
+resist "S" "S.t0" 7.14125
+device msubckt sky130_fd_pr__pfet_01v8_lvt -600 -364 -599 -363  "B.t0" "G" 2400 0 "D.t0" 800 46400,1716 "S.t0" 800 46400,1716

@@ -1,0 +1,52 @@
+** sch_path: /home/lenny/projects/test/layout/bg2_bjt_array.sch
+**.subckt bg2_bjt_array V_PLUS VE_VMINUS VE_VREF AVSS
+*.ipin AVSS
+*.ipin V_PLUS
+*.ipin VE_VMINUS
+*.ipin VE_VREF
+XQ9 AVSS AVSS V_PLUS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ1 AVSS AVSS VE_VMINUS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ10 AVSS AVSS VE_VMINUS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ11 AVSS AVSS VE_VMINUS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ12 AVSS AVSS VE_VMINUS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ13 AVSS AVSS VE_VMINUS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ14 AVSS AVSS VE_VMINUS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ15 AVSS AVSS VE_VMINUS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ16 AVSS AVSS VE_VMINUS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ2 AVSS AVSS VE_VREF sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ3 AVSS AVSS VE_VREF sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ4 AVSS AVSS VE_VREF sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ5 AVSS AVSS VE_VREF sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ6 AVSS AVSS VE_VREF sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ7 AVSS AVSS VE_VREF sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ8 AVSS AVSS VE_VREF sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ17 AVSS AVSS VE_VREF sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ18 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ19 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ20 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ21 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ22 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ23 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ24 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ25 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ26 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ27 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ28 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ29 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ30 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ31 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ32 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ33 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ34 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ35 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ36 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ37 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ38 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ39 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ40 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ41 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ42 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ43 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+XQ45 AVSS AVSS AVSS sky130_fd_pr__pnp_05v5_W3p40L3p40 m=1 mult=1
+**.ends
+.end

@@ -1,0 +1,146 @@
+timestamp 1794584353
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_pr__nfet_01v8_7BGF84 sky130_fd_pr__nfet_01v8_7BGF84_0 1 0 1143 0 1 10828
+port "AVSS" 2 2272 -25 2272 -25 m1
+port "VDDA" 1 -7 21773 -7 21773 m1
+node "AVSS" 534 17496.7 2272 -25 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 162400 4780 1970568 83396 0 0 0 0 0 0 0 0 0 0
+node "li_n17_21639#" 803 636.425 -17 21639 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 85840 4714 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDDA" 481 8480.59 -7 21773 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 162400 4780 1064598 44006 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "AVSS" "VDDA" 749.906
+cap "li_n17_21639#" "VDDA" 455.285
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/G0" 258.595
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/G0" 179.912
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/G0" 55.5032
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/G0" 58.3828
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G0" "sky130_fd_pr__nfet_01v8_7BGF84_0/D1" -19.538
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S1" "sky130_fd_pr__nfet_01v8_7BGF84_0/G0" 0.292573
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S1" "sky130_fd_pr__nfet_01v8_7BGF84_0/G0" -14.4535
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G1" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" -0.267617
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/D1" 21.7551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G1" "sky130_fd_pr__nfet_01v8_7BGF84_0/D1" 45.2233
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G1" "sky130_fd_pr__nfet_01v8_7BGF84_0/S1" -0.202551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G1" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" -0.290305
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S1" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" 21.7551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G1" "sky130_fd_pr__nfet_01v8_7BGF84_0/S1" 50.6115
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G1" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" -0.267617
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G1" "sky130_fd_pr__nfet_01v8_7BGF84_0/D2" 24.8505
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/D2" 21.7551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G1" "sky130_fd_pr__nfet_01v8_7BGF84_0/G3" 177.415
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/D2" "sky130_fd_pr__nfet_01v8_7BGF84_0/G3" 20.3728
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S2" "sky130_fd_pr__nfet_01v8_7BGF84_0/G1" -0.202551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S2" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" 21.7551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S2" "sky130_fd_pr__nfet_01v8_7BGF84_0/G3" 22.0121
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G1" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" -0.290305
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S2" "sky130_fd_pr__nfet_01v8_7BGF84_0/G1" 28.5994
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/D2" "sky130_fd_pr__nfet_01v8_7BGF84_0/G2" -19.538
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S2" "sky130_fd_pr__nfet_01v8_7BGF84_0/G2" 0.292573
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G2" "sky130_fd_pr__nfet_01v8_7BGF84_0/S2" -14.4535
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/G3" -0.267617
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/D3" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" 21.7551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S3" "sky130_fd_pr__nfet_01v8_7BGF84_0/G3" -0.202551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/D3" "sky130_fd_pr__nfet_01v8_7BGF84_0/G3" 45.2233
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S3" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" 21.7551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G3" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" -0.290305
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S3" "sky130_fd_pr__nfet_01v8_7BGF84_0/G3" 50.6115
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G3" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" -0.267617
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/D4" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" 21.7551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S4" "sky130_fd_pr__nfet_01v8_7BGF84_0/G3" -0.202551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G5" "sky130_fd_pr__nfet_01v8_7BGF84_0/D4" 22.0199
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G5" "sky130_fd_pr__nfet_01v8_7BGF84_0/G3" 126.826
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G3" "sky130_fd_pr__nfet_01v8_7BGF84_0/D4" 23.2034
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/S4" 21.7551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G3" "sky130_fd_pr__nfet_01v8_7BGF84_0/S4" 27.4001
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S4" "sky130_fd_pr__nfet_01v8_7BGF84_0/G5" 23.2114
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/G3" -0.290305
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G4" "sky130_fd_pr__nfet_01v8_7BGF84_0/D4" -19.538
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S4" "sky130_fd_pr__nfet_01v8_7BGF84_0/G4" 0.292573
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S4" "sky130_fd_pr__nfet_01v8_7BGF84_0/G4" -14.4535
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/D5" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" 21.7551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G5" "sky130_fd_pr__nfet_01v8_7BGF84_0/D5" 45.2233
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G5" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" -0.267617
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S5" "sky130_fd_pr__nfet_01v8_7BGF84_0/G5" -0.202551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S5" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" 21.7551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G5" "sky130_fd_pr__nfet_01v8_7BGF84_0/S5" 50.6115
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G5" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" -0.290305
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G5" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" -0.267617
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/D6" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" 21.7551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G5" "sky130_fd_pr__nfet_01v8_7BGF84_0/D6" 21.5563
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G5" "sky130_fd_pr__nfet_01v8_7BGF84_0/S6" -0.202551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G7" "sky130_fd_pr__nfet_01v8_7BGF84_0/G5" 76.2371
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G7" "sky130_fd_pr__nfet_01v8_7BGF84_0/D6" 23.667
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G7" "sky130_fd_pr__nfet_01v8_7BGF84_0/S6" 24.4107
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/G5" -0.290305
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/S6" 21.7551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G5" "sky130_fd_pr__nfet_01v8_7BGF84_0/S6" 26.2008
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G6" "sky130_fd_pr__nfet_01v8_7BGF84_0/D6" -19.538
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G6" "sky130_fd_pr__nfet_01v8_7BGF84_0/S6" 0.292573
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S6" "sky130_fd_pr__nfet_01v8_7BGF84_0/G6" -14.4535
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G7" "sky130_fd_pr__nfet_01v8_7BGF84_0/D7" 45.2233
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G7" "sky130_fd_pr__nfet_01v8_7BGF84_0/S7" -0.202551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G7" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" -0.267617
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/D7" 21.7551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G7" "sky130_fd_pr__nfet_01v8_7BGF84_0/S7" 50.6115
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/S7" 21.7551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/G7" -0.290305
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G7" "sky130_fd_pr__nfet_01v8_7BGF84_0/D8" 19.9321
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G9" "sky130_fd_pr__nfet_01v8_7BGF84_0/G7" 25.6482
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S8" "sky130_fd_pr__nfet_01v8_7BGF84_0/G7" -0.202551
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/D8" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" 18.6838
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G7" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" -0.285937
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G9" "sky130_fd_pr__nfet_01v8_7BGF84_0/D8" 14.6558
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S8" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" 18.6838
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S8" "sky130_fd_pr__nfet_01v8_7BGF84_0/G9" 14.9517
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S8" "sky130_fd_pr__nfet_01v8_7BGF84_0/G7" 25.0195
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/G7" -0.30507
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S8" "sky130_fd_pr__nfet_01v8_7BGF84_0/G8" 13.1829
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G8" "sky130_fd_pr__nfet_01v8_7BGF84_0/D8" 19.8422
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/D8" 3.07127
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/G8" 0.0183202
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S8" "sky130_fd_pr__nfet_01v8_7BGF84_0/G8" 9.07704
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S8" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" 3.07127
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/G8" 0.0147658
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G8" "sky130_fd_pr__nfet_01v8_7BGF84_0/D9" 8.99734
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/D9" 0.027568
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "sky130_fd_pr__nfet_01v8_7BGF84_0/G8" 2.69272
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G8" "sky130_fd_pr__nfet_01v8_7BGF84_0/S9" 4.83813
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G8" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" 7.35394
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/G8" "sky130_fd_pr__nfet_01v8_7BGF84_0/S9" 4.70801
+cap "sky130_fd_pr__nfet_01v8_7BGF84_0/S9" "sky130_fd_pr__nfet_01v8_7BGF84_0/B" 0.027568
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/S9" "li_n17_21639#" -17421.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -157760 -9416 -1498772 -67004 0 0 0 0 0 0 0 0 0 0
+merge "li_n17_21639#" "sky130_fd_pr__nfet_01v8_7BGF84_0/D9"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/D9" "sky130_fd_pr__nfet_01v8_7BGF84_0/S8"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/S8" "sky130_fd_pr__nfet_01v8_7BGF84_0/D8"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/D8" "sky130_fd_pr__nfet_01v8_7BGF84_0/S7"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/S7" "sky130_fd_pr__nfet_01v8_7BGF84_0/D7"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/D7" "sky130_fd_pr__nfet_01v8_7BGF84_0/S6"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/S6" "sky130_fd_pr__nfet_01v8_7BGF84_0/D6"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/D6" "sky130_fd_pr__nfet_01v8_7BGF84_0/S5"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/S5" "sky130_fd_pr__nfet_01v8_7BGF84_0/D5"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/D5" "sky130_fd_pr__nfet_01v8_7BGF84_0/S4"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/S4" "sky130_fd_pr__nfet_01v8_7BGF84_0/D4"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/D4" "sky130_fd_pr__nfet_01v8_7BGF84_0/S3"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/S3" "sky130_fd_pr__nfet_01v8_7BGF84_0/D3"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/D3" "sky130_fd_pr__nfet_01v8_7BGF84_0/S2"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/S2" "sky130_fd_pr__nfet_01v8_7BGF84_0/D2"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/D2" "sky130_fd_pr__nfet_01v8_7BGF84_0/S0"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/S0" "VSUBS"
+merge "VSUBS" "sky130_fd_pr__nfet_01v8_7BGF84_0/D0"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/D0" "sky130_fd_pr__nfet_01v8_7BGF84_0/S1"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/S1" "sky130_fd_pr__nfet_01v8_7BGF84_0/D1"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/D1" "sky130_fd_pr__nfet_01v8_7BGF84_0/B"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/B" "AVSS"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/G9" "sky130_fd_pr__nfet_01v8_7BGF84_0/G8" -7387.21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -21160 -1840 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/G8" "sky130_fd_pr__nfet_01v8_7BGF84_0/G7"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/G7" "sky130_fd_pr__nfet_01v8_7BGF84_0/G6"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/G6" "sky130_fd_pr__nfet_01v8_7BGF84_0/G5"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/G5" "sky130_fd_pr__nfet_01v8_7BGF84_0/G4"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/G4" "sky130_fd_pr__nfet_01v8_7BGF84_0/G3"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/G3" "sky130_fd_pr__nfet_01v8_7BGF84_0/G2"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/G2" "sky130_fd_pr__nfet_01v8_7BGF84_0/G1"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/G1" "sky130_fd_pr__nfet_01v8_7BGF84_0/G0"
+merge "sky130_fd_pr__nfet_01v8_7BGF84_0/G0" "VDDA"

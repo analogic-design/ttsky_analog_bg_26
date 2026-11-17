@@ -1,0 +1,23 @@
+* SPICE3 file created from bg2_top_tt_v2_lvs.ext - technology: sky130A
+
+X0 VGND VPWR VGND VGND sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X1 VGND VPWR VGND VGND sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X2 VGND VPWR VGND VGND sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X3 VGND VPWR VGND VGND sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X4 VGND VPWR VGND VGND sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X5 VGND VPWR VGND VGND sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X6 VGND VPWR VGND VGND sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X7 VGND VPWR VGND VGND sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X8 VGND VPWR VGND VGND sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X9 VGND VPWR VGND VGND sky130_fd_pr__nfet_01v8 ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X10 VPWR vbp1 VPWR VPWR sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X11 VPWR vbp1 VPWR VPWR sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X12 VPWR vbp1 VPWR VPWR sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X13 VPWR vbp1 VPWR VPWR sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X14 VPWR vbp1 VPWR VPWR sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X15 VPWR vbp1 VPWR VPWR sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X16 VPWR vbp1 VPWR VPWR sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X17 VPWR vbp1 VPWR VPWR sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X18 VPWR vbp1 VPWR VPWR sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+X19 VPWR vbp1 VPWR VPWR sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=10
+
