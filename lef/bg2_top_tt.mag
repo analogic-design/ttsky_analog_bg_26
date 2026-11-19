@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1795063635
+timestamp 1795064603
 << locali >>
 rect -17898 26415 5392 26485
 rect -17898 24163 -17672 26415
@@ -350,7 +350,7 @@ timestamp 1794761719
 transform 1 0 -9517 0 1 18334
 box -919 -3116 4447 826
 use bg2_res_array_complete  bg2_res_array_complete_0
-timestamp 1795063635
+timestamp 1795064603
 transform 1 0 -13948 0 1 8788
 box -53 -122 13727 5284
 use bg2_startup  bg2_startup_0
