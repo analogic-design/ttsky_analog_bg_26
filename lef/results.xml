@@ -1,6 +1,6 @@
 <testsuites>
   <testsuite name="Tiny Tapeout Prechecks">
-    <testcase name="Magic DRC" time="0.81">
+    <testcase name="Magic DRC" time="1.08">
       <error message="Magic DRC failed">Traceback (most recent call last):
   File "/home/runner/work/ttsky_analog_bg_26/ttsky_analog_bg_26/tt/precheck/precheck.py", line 589, in main
     check["check"]()
@@ -12,34 +12,19 @@
 precheck_failure.PrecheckFailure: Magic DRC failed
 </error>
     </testcase>
-    <testcase name="KLayout FEOL" time="2.02">
-      <error message="Klayout feol failed with 6 DRC violations">Traceback (most recent call last):
-  File "/home/runner/work/ttsky_analog_bg_26/ttsky_analog_bg_26/tt/precheck/precheck.py", line 589, in main
-    check["check"]()
-  File "/home/runner/work/ttsky_analog_bg_26/ttsky_analog_bg_26/tt/precheck/precheck.py", line 497, in &lt;lambda&gt;
-    "check": lambda: klayout_drc(gds_file, "feol"),
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/ttsky_analog_bg_26/ttsky_analog_bg_26/tt/precheck/precheck.py", line 117, in klayout_drc
-    klayout_custom_drc(check, script, script_vars, ["report", "report_file"])
-  File "/home/runner/work/ttsky_analog_bg_26/ttsky_analog_bg_26/tt/precheck/precheck.py", line 98, in klayout_custom_drc
-    check_drc_report(check, report_file)
-  File "/home/runner/work/ttsky_analog_bg_26/ttsky_analog_bg_26/tt/precheck/precheck.py", line 80, in check_drc_report
-    raise PrecheckFailure(
-precheck_failure.PrecheckFailure: Klayout feol failed with 6 DRC violations
-</error>
-    </testcase>
-    <testcase name="KLayout BEOL" time="3.02" />
-    <testcase name="KLayout offgrid" time="1.55" />
-    <testcase name="KLayout pin label overlapping drawing" time="1.26" />
-    <testcase name="KLayout zero area" time="1.25" />
+    <testcase name="KLayout FEOL" time="2.6" />
+    <testcase name="KLayout BEOL" time="3.91" />
+    <testcase name="KLayout offgrid" time="1.96" />
+    <testcase name="KLayout pin label overlapping drawing" time="1.56" />
+    <testcase name="KLayout zero area" time="1.55" />
     <testcase name="KLayout Checks" time="0.01" />
     <testcase name="Pin check" time="0.02" />
-    <testcase name="Boundary check" time="0.01" />
+    <testcase name="Boundary check" time="0.02" />
     <testcase name="Power pin check" time="0.0" />
-    <testcase name="Layer check" time="0.02" />
+    <testcase name="Layer check" time="0.03" />
     <testcase name="Cell name check" time="0.01" />
-    <testcase name="urpm/nwell check" time="1.19" />
-    <testcase name="Analog pin check" time="0.03" />
-    <testcase name="Verilog syntax check" time="10.06" />
+    <testcase name="urpm/nwell check" time="1.48" />
+    <testcase name="Analog pin check" time="0.04" />
+    <testcase name="Verilog syntax check" time="14.31" />
   </testsuite>
 </testsuites>

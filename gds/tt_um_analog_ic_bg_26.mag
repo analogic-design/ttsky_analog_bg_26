@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1794940776
+timestamp 1795060304
 << locali >>
 rect 3536 10982 26826 12050
 << metal1 >>
@@ -114,7 +114,7 @@ rect 22634 0 22814 200
 rect 26498 0 26678 200
 rect 30362 0 30542 9057
 use bg2_top_tt  bg2_top_tt_0
-timestamp 1794845602
+timestamp 1795060304
 transform 1 0 21434 0 1 12024
 box -17898 -1232 5392 26485
 << labels >>

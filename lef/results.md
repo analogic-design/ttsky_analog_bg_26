@@ -3,7 +3,7 @@
 | Check | Result |
 |-----------|--------|
 | Magic DRC | ❌ Fail: Magic DRC failed |
-| KLayout FEOL | ❌ Fail: Klayout feol failed with 6 DRC violations |
+| KLayout FEOL | ✅ |
 | KLayout BEOL | ✅ |
 | KLayout offgrid | ✅ |
 | KLayout pin label overlapping drawing | ✅ |
